@@ -1,4 +1,9 @@
-theme: jekyll-theme-minimal
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+minima:
+  skin: dark 
+
 title: "Amr Amer — ML Engineer Portfolio"
 description: "Computer Vision | Medical Imaging | Multimodal Generative Models"
 logo: /assets/new_profile_photo.jpg
