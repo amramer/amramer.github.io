@@ -6,6 +6,9 @@
 
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
+  img[alt="Profile"] {
+    border-color: #79c0ff !important;
+  }
 
   html, body {
     background: #0d1117 !important;
