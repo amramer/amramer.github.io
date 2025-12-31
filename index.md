@@ -27,8 +27,8 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
   <img src="assets/final-avatars.gif" width="75%">
 </p>
 
-**Demo:** https://master-thesis-amr-amer.streamlit.app/  
-**Repo:** https://github.com/amramer/Thesis-Project  
+**Website:** https://master-thesis-amr-amer.streamlit.app/ 
+**Repo:** https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation  
 
 ---
 
@@ -40,7 +40,7 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 - Loss & Metrics: **Dice Loss**, **Mean Dice**
 - Modalities: FLAIR · T1 · T1Gd · T2
 
-**Repo:** https://github.com/amramer/brain-tumor-segmentation  
+**Repo:** https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning 
 **Tech:** MONAI · PyTorch · CUDA
 
 ---
@@ -52,7 +52,9 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 - Real-time tracking (players + shuttle)
 - Visualization dashboard with analytics
 
+<!--
 **Repo:** https://github.com/amramer/badminton-ai-tracking  
+-->
 **Tech:** OpenCV · YOLO · Supervision · Streamlit
 
 ---
@@ -68,11 +70,13 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 
 ---
 
+<!--
 ## 📄 Resume
 
 [Download My Resume (PDF)](assets/resume.pdf)
 
----
+-->
+
 
 ## 📬 Contact
 
