@@ -1,4 +1,4 @@
-theme: jekyll-theme-chirpy
+theme: sproogen/modern-resume-theme
 title: "Amr Amer — ML Engineer Portfolio"
 description: "Computer Vision | Medical Imaging | Multimodal Generative Models"
 logo: /assets/new_profile_photo.jpg
