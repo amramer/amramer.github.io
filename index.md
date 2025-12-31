@@ -28,7 +28,7 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 - Evaluated with metrics **FID, P-FID**, and user studies (86% trait recognition)
 
 <p align="center">
-  <img src="assets/final-avatars.gif" width="75%">
+  <img src="assets/final-avatars.gif" width="80%">
 </p>
 
 **Live Demo:** [Thesis Website](https://master-thesis-amr-amer.streamlit.app/)  
@@ -47,7 +47,7 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 - Modalities: FLAIR · T1 · T1Gd · T2
 
 <p align="center">
-  <img src="assets/visualize-dec-dataset.gif" width="75%">
+  <img src="assets/visualize-dec-dataset.gif" width="80%">
 </p>
 
 **Repository:** [Brain Tumor Segmentation (3D Deep Learning)](https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning)
