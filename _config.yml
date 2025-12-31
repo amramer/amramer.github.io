@@ -1,7 +1,5 @@
+theme: jekyll-theme-minimal
 title: "Amr Amer — ML Engineer Portfolio"
 description: "Computer Vision | Medical Imaging | Multimodal Generative Models"
-remote_theme: cotes2020/jekyll-theme-chirpy
-# GitHub Pages metadata
-url: "https://amramer.github.io"
 logo: /assets/new_profile_photo.jpg
 
