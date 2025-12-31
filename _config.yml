@@ -1,17 +1,5 @@
-# ---------------------------------------------------------------
-# Theme Setup
-# ---------------------------------------------------------------
-
-theme: minima                     # Use the Minima theme (built-in to GitHub Pages)
-plugins:
-  - jekyll-remote-theme           # Allow remote themes if needed later
-
-# ---------------------------------------------------------------
-# Minima Options
-# ---------------------------------------------------------------
-
 minima:
-  skin: dark                      # Enable dark mode style preset (official Minima option)
+  skin: dark                    
 
 # ---------------------------------------------------------------
 # Site Identity
