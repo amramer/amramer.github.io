@@ -51,7 +51,6 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 </p>
 
 **Repository:** [Brain Tumor Segmentation (3D Deep Learning)](https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning)
-
 **Tech:** MONAI · PyTorch · CUDA
 
 ---
