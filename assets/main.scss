@@ -1,8 +1,8 @@
 ---
 ---
 
-/* 1) Import the default Minima styles */
-@import "minima";
+/* Import the active GitHub Pages theme correctly */
+@import "{{ site.theme }}";
 
 /* 2) Global dark theme overrides */
 
