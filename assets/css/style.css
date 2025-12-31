@@ -3,19 +3,13 @@
 
 /* FORCE FULL DARK MODE EVERYWHERE */
 
-html, body,
-.site, .site-header, .site-footer,
-.page-content, .wrapper, .container, #main {
-  background-color: #000000 !important;
-  color: #ffffff !important;
-}
 
 /* Paragraphs / text */
 body {
-    background-color: #030303;
+    background-color: #000000 !important;
     padding: 50px;
     font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #ffffff;
+    color: #ffffff !important;
     font-weight: 400
 }
 
@@ -38,8 +32,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Code blocks */
 pre, code {
-  background: #111111 !important;
-  color: #e6edf3 !important;
+  background: #000000 !important;
+  color: #000000 !important;
   border: 1px solid #333333 !important;
 }
 
