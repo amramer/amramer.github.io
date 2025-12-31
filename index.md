@@ -3,17 +3,21 @@ layout: default
 title: "Home"
 ---
 
+
 # 👋 Hi, I'm **Amr Amer**
 ### Machine Learning Engineer | Computer Vision | Multimodal Generative Models
 
+
 I design and build **real-time CV systems**, **medical imaging solutions**, and **multimodal generative models**.  
 Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning**.
+
 
 [Email](mailto:amribrahim.amer@gmail.com) • 
 [LinkedIn](https://www.linkedin.com/in/amr-amer-2023-cs/) • 
 [GitHub](https://github.com/amramer)
 
 ---
+
 
 ## 🔥 Featured Project — Master's Thesis
 
@@ -32,6 +36,7 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 
 ---
 
+
 ## 🩺 Key Project — Medical Imaging
 
 ### 3D Brain Tumor Segmentation (MRI)
@@ -44,6 +49,7 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 **Tech:** MONAI · PyTorch · CUDA
 
 ---
+
 
 ## 🏸 Sports Analytics — Computer Vision
 
@@ -59,6 +65,7 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 
 ---
 
+
 ## 🧠 Tech Stack
 
 | Category | Tools |
@@ -69,6 +76,7 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 | Domains | Medical Imaging, Sports Tracking, Generative Models, Multimodal AI |
 
 ---
+
 
 <!--
 ## 📄 Resume
