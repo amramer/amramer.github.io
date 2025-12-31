@@ -1,22 +1,27 @@
 ---
 ---
 
-/* Import the base theme */
+/* Import the base GitHub Pages theme */
 @import "{{ site.theme }}";
 
-/* Dark mode */
+/* Dark mode overrides */
 @media (prefers-color-scheme: dark) {
+
+  /* Base background + text */
   html, body {
-    background: #0d1117 !important;
+    background-color: #0d1117 !important;
     color: #e6edf3 !important;
   }
 
-  /* Text + links */
-  p, li, span, strong, em, label {
+  /* General text elements */
+  body,
+  p, li, span, strong, em, label, small {
     color: #e6edf3 !important;
   }
 
-  a {
+  /* Links */
+  a,
+  a:link {
     color: #58a6ff !important;
   }
 
@@ -24,7 +29,8 @@
     color: #8e96f0 !important;
   }
 
-  a:hover {
+  a:hover,
+  a:focus {
     color: #91c9ff !important;
   }
 
@@ -33,30 +39,39 @@
     color: #f0f6fc !important;
   }
 
-  /* Wrapper box (jekyll-theme-minimal) */
-  .wrapper {
-    background: #0d1117 !important;
-    border: 1px solid #30363d !important;
+  /* Main wrapper / container (covers most GitHub Pages themes) */
+  .wrapper,
+  .container,
+  #main {
+    background-color: #0d1117 !important;
+    border-color: #30363d !important;
   }
 
   /* Tables */
   table {
     border: 1px solid #30363d !important;
-    background: #0d1117 !important;
+    background-color: #0d1117 !important;
     color: #e6edf3 !important;
   }
 
   th, td {
     border: 1px solid #30363d !important;
-    background: #161b22 !important;
+    background-color: #161b22 !important;
     color: #e6edf3 !important;
   }
 
   /* Code blocks */
   pre, code {
-    background: #161b22 !important;
+    background-color: #161b22 !important;
     color: #e6edf3 !important;
     border: 1px solid #30363d !important;
+  }
+
+  /* Blockquotes */
+  blockquote {
+    background-color: #161b22 !important;
+    border-left: 4px solid #30363d !important;
+    color: #e6edf3 !important;
   }
 
   /* Horizontal rules */
@@ -65,9 +80,14 @@
   }
 
   /* Inputs / textfields (if used) */
-  input, textarea {
-    background: #161b22 !important;
+  input, textarea, select {
+    background-color: #161b22 !important;
     color: #e6edf3 !important;
     border: 1px solid #30363d !important;
+  }
+
+  /* Lists */
+  ul, ol {
+    color: #e6edf3 !important;
   }
 }
