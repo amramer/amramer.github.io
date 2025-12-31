@@ -31,7 +31,7 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
   <img src="assets/final-avatars.gif" width="75%">
 </p>
 
-**Live Demo:** [Personality-Aware Website](https://master-thesis-amr-amer.streamlit.app/)  
+**Live Demo:** [Thesis Website](https://master-thesis-amr-amer.streamlit.app/)  
 **Repository:** [Thesis Codebase](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation)
  
 
