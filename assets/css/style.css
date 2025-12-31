@@ -16,13 +16,13 @@
   /* General text elements */
   body,
   p, li, span, strong, em, label, small {
-    color: #e6edf3 !important;
+    color: #1e1e1e !important;
   }
 
   /* Links */
   a,
   a:link {
-    color: #58a6ff !important;
+    color: #90caf9 !important;
   }
 
   a:visited {
@@ -43,7 +43,7 @@
   .wrapper,
   .container,
   #main {
-    background-color: #0d1117 !important;
+    background-color: #1e1e1e !important;
     border-color: #30363d !important;
   }
 
@@ -56,7 +56,7 @@
 
   th, td {
     border: 1px solid #30363d !important;
-    background-color: #161b22 !important;
+    background-color: #1e1e1e !important;
     color: #e6edf3 !important;
   }
 
@@ -69,7 +69,7 @@
 
   /* Blockquotes */
   blockquote {
-    background-color: #161b22 !important;
+    background-color: #1e1e1e !important;
     border-left: 4px solid #30363d !important;
     color: #e6edf3 !important;
   }
@@ -81,7 +81,7 @@
 
   /* Inputs / textfields (if used) */
   input, textarea, select {
-    background-color: #161b22 !important;
+    background-color: #1e1e1e !important;
     color: #e6edf3 !important;
     border: 1px solid #30363d !important;
   }
