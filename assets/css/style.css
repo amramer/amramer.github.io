@@ -1,9 +1,6 @@
 ---
 ---
 
-/* Load base theme */
-@import "{{ site.theme }}";
-
 /* FORCE FULL DARK MODE EVERYWHERE */
 
 html, body,
