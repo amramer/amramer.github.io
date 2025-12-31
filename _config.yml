@@ -1,17 +1,4 @@
-minima:
-  skin: dark                    
-
-# ---------------------------------------------------------------
-# Site Identity
-# ---------------------------------------------------------------
-
 title: "Amr Amer — ML Engineer Portfolio"
 description: "Computer Vision | Medical Imaging | Multimodal Generative Models"
 logo: /assets/new_profile_photo.jpg
 
-# ---------------------------------------------------------------
-# Site Settings
-# ---------------------------------------------------------------
-
-show_excerpts: true
-markdown: kramdown
