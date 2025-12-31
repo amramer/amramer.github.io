@@ -14,8 +14,12 @@ html, body,
 }
 
 /* Paragraphs / text */
-body, p, li, span, strong, em, small, label {
-  color: #f5f5f5 !important;
+body {
+    background-color: #030303;
+    padding: 50px;
+    font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    font-weight: 400
 }
 
 /* Links */
