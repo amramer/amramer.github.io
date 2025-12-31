@@ -9,7 +9,7 @@ It showcases my:
 - Interactive demos (Streamlit / real-time applications)
 - Skills in ML Engineering, and multimodal AI development
 
-The site is deployed using **GitHub Pages** with Jekyll.
+The site is deployed using **GitHub Pages**.
 
 **Live Portfolio:** https://amramer.github.io  
 **LinkedIn:** https://www.linkedin.com/in/amr-amer-2023-cs/
