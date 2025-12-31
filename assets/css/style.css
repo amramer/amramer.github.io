@@ -1,93 +1,32 @@
----
----
+body {
+  background-color: #1e1e1e;
+}
 
-/* Import the base GitHub Pages theme */
-@import "{{ site.theme }}";
+a {
+  color: #90caf9;
+}
 
-/* Dark mode overrides */
-@media (prefers-color-scheme: dark) {
+a:hover {
+  color: #bbdefb;
+}
 
-  /* Base background + text */
-  html, body {
-    background-color: #0d1117 !important;
-    color: #e6edf3 !important;
-  }
+header, footer {
+  background-color: #1e1e1e;
+  color: #9f988c;
+}
 
-  /* General text elements */
-  body,
-  p, li, span, strong, em, label, small {
-    color: #e6edf3 !important;
-  }
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
 
-  /* Links */
-  a,
-  a:link {
-    color: #58a6ff !important;
-  }
+strong, b {
+  color: #ffffff;
+}
 
-  a:visited {
-    color: #8e96f0 !important;
-  }
+section p, section li {
+  color: #9f988c;
+}
 
-  a:hover,
-  a:focus {
-    color: #91c9ff !important;
-  }
-
-  /* Headings */
-  h1, h2, h3, h4, h5, h6 {
-    color: #f0f6fc !important;
-  }
-
-  /* Main wrapper / container (covers most GitHub Pages themes) */
-  .wrapper,
-  .container,
-  #main {
-    background-color: #0d1117 !important;
-    border-color: #30363d !important;
-  }
-
-  /* Tables */
-  table {
-    border: 1px solid #30363d !important;
-    background-color: #0d1117 !important;
-    color: #e6edf3 !important;
-  }
-
-  th, td {
-    border: 1px solid #30363d !important;
-    background-color: #161b22 !important;
-    color: #e6edf3 !important;
-  }
-
-  /* Code blocks */
-  pre, code {
-    background-color: #161b22 !important;
-    color: #e6edf3 !important;
-    border: 1px solid #30363d !important;
-  }
-
-  /* Blockquotes */
-  blockquote {
-    background-color: #161b22 !important;
-    border-left: 4px solid #30363d !important;
-    color: #e6edf3 !important;
-  }
-
-  /* Horizontal rules */
-  hr {
-    border-color: #30363d !important;
-  }
-
-  /* Inputs / textfields (if used) */
-  input, textarea, select {
-    background-color: #161b22 !important;
-    color: #e6edf3 !important;
-    border: 1px solid #30363d !important;
-  }
-
-  /* Lists */
-  ul, ol {
-    color: #e6edf3 !important;
-  }
+section img {
+  padding: 5px;
 }
