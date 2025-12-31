@@ -28,11 +28,12 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 - Evaluated with metrics **FID, P-FID**, and user studies (86% trait recognition)
 
 <p align="center">
-  <img src="assets/final-avatars.gif" width="85%">
+  <img src="assets/final-avatars.gif" width="100%">
 </p>
 
-**Website:** https://master-thesis-amr-amer.streamlit.app/ 
-**Repo:** https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation  
+**Live Demo:** [Personality-Aware Website](https://master-thesis-amr-amer.streamlit.app/)  
+**Repository:** [Thesis Codebase](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation)
+ 
 
 ---
 
@@ -45,7 +46,11 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 - Loss & Metrics: **Dice Loss**, **Mean Dice**
 - Modalities: FLAIR · T1 · T1Gd · T2
 
-**Repo:** https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning 
+<p align="center">
+  <img src="assets/visualize-dec-dataset.gif" width="100%">
+</p>
+
+**Repository:** [Brain Tumor Segmentation (3D Deep Learning)](https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning)
 **Tech:** MONAI · PyTorch · CUDA
 
 ---
