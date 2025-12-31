@@ -1,28 +1,33 @@
-body {
-  background-color: #1e1e1e;
-}
 
-a {
-  color: #90caf9;
-}
+/* Import the base GitHub Pages theme */
+@import "{{ site.theme }}";
 
-a:hover {
-  color: #bbdefb;
-}
+/* Dark mode overrides */
+@media (prefers-color-scheme: dark) {
 
-header, footer {
-  background-color: #1e1e1e;
-  color: #9f988c;
-}
+  /* Base background + text */
+  body {
+    background-color: #1e1e1e;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #ffffff;
-}
+  /* Links */
+  a,
+  a:link {
+    color: #58a6ff;
+  }
 
-strong, b {
-  color: #ffffff;
-}
+  a:visited {
+    color: #8e96f0;
+  }
 
-section p, section li {
-  color: #9f988c;
+  a:hover,
+  a:focus {
+    color: #91c9ff;
+  }
+
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    color:  #ffffff;
+  }
+
 }
