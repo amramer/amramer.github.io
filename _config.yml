@@ -1,10 +1,29 @@
-remote_theme: jekyll/minima
+# ---------------------------------------------------------------
+# Theme Setup
+# ---------------------------------------------------------------
+
+theme: minima                     # Use the Minima theme (built-in to GitHub Pages)
 plugins:
-  - jekyll-remote-theme
+  - jekyll-remote-theme           # Allow remote themes if needed later
+
+# ---------------------------------------------------------------
+# Minima Options
+# ---------------------------------------------------------------
+
 minima:
-  skin: dark 
+  skin: dark                      # Enable dark mode style preset (official Minima option)
+
+# ---------------------------------------------------------------
+# Site Identity
+# ---------------------------------------------------------------
 
 title: "Amr Amer — ML Engineer Portfolio"
 description: "Computer Vision | Medical Imaging | Multimodal Generative Models"
 logo: /assets/new_profile_photo.jpg
 
+# ---------------------------------------------------------------
+# Site Settings
+# ---------------------------------------------------------------
+
+show_excerpts: true
+markdown: kramdown
