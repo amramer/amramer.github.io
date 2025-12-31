@@ -24,7 +24,7 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 - Evaluated with metrics **FID, P-FID**, and user studies (86% trait recognition)
 
 <p align="center">
-  <img src="assets/final-avatars.gif" width="75%">
+  <img src="assets/final-avatars.gif" width="85%">
 </p>
 
 **Website:** https://master-thesis-amr-amer.streamlit.app/ 
