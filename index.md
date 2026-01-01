@@ -3,14 +3,37 @@ layout: default
 title: "Home"
 ---
 
+<div class="layout-with-sidebar">
+  <aside class="sidebar">
+    <div class="sidebar-profile">
+      <img src="{{ site.logo | relative_url }}" alt="Profile photo of Amr Amer" class="sidebar-avatar">
+      <h1 class="sidebar-name">Amr Amer</h1>
+      <p class="sidebar-title">ML Engineer · CV · Generative Models</p>
+    </div>
 
-# 👋 Hi, I'm **Amr Amer**
+    <nav class="sidebar-nav">
+      <a href="#home">Home</a>
+      <a href="#featured-project">Featured Project</a>
+      <a href="#medical-imaging">Medical Imaging</a>
+      <a href="#sports-analytics">Sports Analytics</a>
+      <a href="#tech-stack">Tech Stack</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="sidebar-links">
+      <a href="mailto:amribrahim.amer@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/amr-amer-2023-cs/">LinkedIn</a>
+      <a href="https://github.com/amramer">GitHub</a>
+    </div>
+  </aside>
+
+  <main class="content-with-sidebar" markdown="1">
+
+# <span id="home"></span>👋 Hi, I'm **Amr Amer**
 ### Machine Learning Engineer | Computer Vision | Multimodal Generative Models
-
 
 I design and build **real-time CV systems**, **medical imaging solutions**, and **multimodal generative models**.  
 Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning**.
-
 
 [Email](mailto:amribrahim.amer@gmail.com) • 
 [LinkedIn](https://www.linkedin.com/in/amr-amer-2023-cs/) • 
@@ -18,8 +41,7 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 
 ---
 
-
-## 🔥 Featured Project — Master's Thesis
+## 🔥 Featured Project — Master's Thesis {#featured-project}
 
 **Personality-Aware Non-verbal Behavior Generation in Dyadic Interactions**
 
@@ -34,11 +56,9 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 **Live Demo:** [Thesis Website](https://master-thesis-amr-amer.streamlit.app/)  
 **Repository:** [Thesis Codebase](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation)
  
-
 ---
 
-
-## 🩺 Key Project — Medical Imaging
+## 🩺 Key Project — Medical Imaging {#medical-imaging}
 
 ### 3D Brain Tumor Segmentation (MRI)
 - Dataset: **Medical Decathlon / BraTS**
@@ -50,13 +70,12 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
   <img src="assets/visualize-dec-dataset.gif" width="75%">
 </p>
 
-**Repository:** [Brain Tumor Segmentation (3D Deep Learning)](https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning)
+**Repository:** [Brain Tumor Segmentation (3D Deep Learning)](https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning)  
 **Tech:** MONAI · PyTorch · CUDA
 
 ---
 
-
-## 🏸 Sports Analytics — Computer Vision
+## 🏸 Sports Analytics — Computer Vision {#sports-analytics}
 
 ### Badminton Shot Type Classification & Player Tracking
 - Shot detection with **Roboflow + Supervision**
@@ -70,8 +89,7 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 
 ---
 
-
-## 🧠 Tech Stack
+## 🧠 Tech Stack {#tech-stack}
 
 | Category | Tools |
 |----------|--------|
@@ -82,7 +100,6 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 
 ---
 
-
 <!--
 ## 📄 Resume
 
@@ -90,8 +107,7 @@ Currently open to roles in **ML Engineering, Computer Vision, and Deep Learning*
 
 -->
 
-
-## 📬 Contact
+## 📬 Contact {#contact}
 
 If you're hiring or would like to collaborate:
 
@@ -99,3 +115,6 @@ If you're hiring or would like to collaborate:
 **LinkedIn:** https://www.linkedin.com/in/amr-amer-2023-cs/
 
 ---
+
+  </main>
+</div>
