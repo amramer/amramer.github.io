@@ -96,15 +96,13 @@ input, textarea, select {
 
 /* Profile photo in hero */
 .hero-avatar {
-  width: 200px;
-  height: 200px;
-  border-radius: 16px;  
-  object-fit: cover;
-  border: 2px solid #333333;
-  flex-shrink: 0;
+    width: 165px!important;
+    height: 246px!important;
+    border-radius: 12px !important;
+    object-fit: cover;
+    border: 2.5px solid #b09797!important;
+    flex-shrink: 1 !important;
 }
-
-
 /* Text side of hero */
 .hero-text h1 {
   margin-top: 0;
