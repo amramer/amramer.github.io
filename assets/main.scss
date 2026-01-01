@@ -1,15 +1,11 @@
 ---
 ---
 
-/* ===================================== */
-/* 0) Import Minima theme as base         */
-/* ===================================== */
+/* 0) Import Minima as base */
 @import "{{ site.theme }}";
 
 
-/* ===================================== */
-/* 1) Global Dark Theme Overrides         */
-/* ===================================== */
+/* 1) Global Dark Theme Overrides */
 
 /* Background + base text */
 html, body,
@@ -34,10 +30,13 @@ h1, h2, h3, h4, h5, h6 {
 a, a:link {
   color: #58a6ff !important;
 }
+
 a:visited {
   color: #8bbcff !important;
 }
-a:hover, a:focus {
+
+a:hover,
+a:focus {
   color: #91c9ff !important;
   text-decoration: underline;
 }
@@ -71,17 +70,13 @@ input, textarea, select {
 }
 
 
+/* 2) Remove big header logo (Minima) */
 
-/* ===================================== */
-/* 2) Remove or Shrink Header Logo       */
-/* ===================================== */
-
-/* Remove Minima's giant header logo */
 .site-header .site-title img {
   display: none !important;
 }
 
-/* If you prefer to show a SMALL header logo instead, comment the above and use below:
+/* If you prefer a small logo instead, comment the rule above and use this:
 .site-header .site-title img {
   max-height: 40px;
   width: auto;
@@ -90,10 +85,7 @@ input, textarea, select {
 */
 
 
-
-/* ===================================== */
-/* 3) Sidebar Layout & Styling           */
-/* ===================================== */
+/* 3) Sidebar Layout & Styling */
 
 .layout-with-sidebar {
   display: flex;
@@ -110,15 +102,14 @@ input, textarea, select {
   min-width: 240px;
 }
 
-/* Main content area beside sidebar */
+/* Main content next to sidebar */
 .content-with-sidebar {
   flex: 1 1 auto;
   width: 100%;
 }
 
 
-/* ---------- Profile Section ---------- */
-
+/* Profile block in sidebar */
 .sidebar-profile {
   text-align: center;
   margin-bottom: 1.5rem;
@@ -145,8 +136,7 @@ input, textarea, select {
 }
 
 
-/* ---------- Navigation Links ---------- */
-
+/* Navigation links in sidebar */
 .sidebar-nav {
   display: flex;
   flex-direction: column;
@@ -159,3 +149,59 @@ input, textarea, select {
   font-size: 0.95rem;
   font-weight: 500;
   padding: 0.35rem 0.25rem;
+  border-radius: 6px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.sidebar-nav a:hover,
+.sidebar-nav a:focus {
+  background-color: #111111;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+
+/* Contact / social links in sidebar */
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #222222;
+  padding-top: 1rem;
+}
+
+.sidebar-links a {
+  text-decoration: none;
+}
+
+.sidebar-links a:hover,
+.sidebar-links a:focus {
+  text-decoration: underline;
+}
+
+
+/* 4) Responsive behavior */
+
+@media (min-width: 900px) {
+  .layout-with-sidebar {
+    align-items: flex-start;
+  }
+
+  .sidebar {
+    flex: 0 0 260px;
+    position: sticky;
+    top: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .content-with-sidebar {
+    flex: 1 1 auto;
+  }
+}
+
+@media (max-width: 899px) {
+  .layout-with-sidebar {
+    flex-direction: column;
+  }
+}
