@@ -70,15 +70,23 @@ input, textarea, select {
 }
 
 
-/* 2) Remove Minima's big header logo (we use hero avatar instead) */
+/* 2) Completely hide Minima's header logo */
 
-.site-header .site-title img {
+/* Hide any image in the site header (this kills the big logo at the top) */
+.site-header img {
   display: none !important;
+}
+
+/* Also neutralize any logo injected via pseudo-elements */
+.site-title::before,
+.site-title::after {
+  content: "" !important;
 }
 
 
 /* 3) Hero block: profile photo left, text right */
 
+/* Container for the hero section at the top of index.md */
 .hero {
   display: flex;
   align-items: center;
