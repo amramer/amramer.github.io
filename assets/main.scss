@@ -67,3 +67,119 @@ input, textarea, select {
   color: #ffffff !important;
   border: 1px solid #333333 !important;
 }
+
+/* ========================= */
+/* Sidebar layout + styling  */
+/* ========================= */
+
+.layout-with-sidebar {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Use full width by default (mobile-first) */
+.sidebar {
+  background-color: #070707;
+  border: 1px solid #222222;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.content-with-sidebar {
+  width: 100%;
+}
+
+/* Profile section inside sidebar */
+.sidebar-profile {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #333333;
+  margin-bottom: 0.75rem;
+}
+
+.sidebar-name {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.sidebar-title {
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+  color: #b3b3b3 !important;
+}
+
+/* Navigation links */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-nav a {
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.35rem 0.25rem;
+  border-radius: 6px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.sidebar-nav a:hover,
+.sidebar-nav a:focus {
+  background-color: #111111;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+/* Social / quick links */
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #222222;
+  padding-top: 1rem;
+}
+
+.sidebar-links a {
+  text-decoration: none;
+}
+
+.sidebar-links a:hover,
+.sidebar-links a:focus {
+  text-decoration: underline;
+}
+
+/* Desktop breakpoint: sidebar left, content right */
+@media (min-width: 900px) {
+  .layout-with-sidebar {
+    align-items: flex-start;
+  }
+
+  .sidebar {
+    flex: 0 0 260px;
+    position: sticky;
+    top: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .content-with-sidebar {
+    flex: 1 1 auto;
+  }
+}
+
+/* Small screens: stack vertically */
+@media (max-width: 899px) {
+  .layout-with-sidebar {
+    flex-direction: column;
+  }
+}
