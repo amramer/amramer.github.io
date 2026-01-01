@@ -1,10 +1,15 @@
 ---
 ---
 
-/* Import the active GitHub Pages theme correctly */
+/* ===================================== */
+/* 0) Import Minima theme as base         */
+/* ===================================== */
 @import "{{ site.theme }}";
 
-/* 2) Global dark theme overrides */
+
+/* ===================================== */
+/* 1) Global Dark Theme Overrides         */
+/* ===================================== */
 
 /* Background + base text */
 html, body,
@@ -29,13 +34,10 @@ h1, h2, h3, h4, h5, h6 {
 a, a:link {
   color: #58a6ff !important;
 }
-
 a:visited {
   color: #8bbcff !important;
 }
-
-a:hover,
-a:focus {
+a:hover, a:focus {
   color: #91c9ff !important;
   text-decoration: underline;
 }
@@ -68,171 +70,60 @@ input, textarea, select {
   border: 1px solid #333333 !important;
 }
 
-/* ========================= */
-/* Sidebar layout + styling  */
-/* ========================= */
 
-.layout-with-sidebar {
-  display: flex;
-  gap: 2rem;
-}
 
-/* Use full width by default (mobile-first) */
-.sidebar {
-  background-color: #070707;
-  border: 1px solid #222222;
-  border-radius: 12px;
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-}
+/* ===================================== */
+/* 2) Remove or Shrink Header Logo       */
+/* ===================================== */
 
-.content-with-sidebar {
-  width: 100%;
-}
-
-/* Profile section inside sidebar */
-.sidebar-profile {
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-.sidebar-avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #333333;
-  margin-bottom: 0.75rem;
-}
-
-.sidebar-name {
-  font-size: 1.4rem;
-  margin: 0;
-}
-
-.sidebar-title {
-  font-size: 0.9rem;
-  margin-top: 0.25rem;
-  color: #b3b3b3 !important;
-}
-
-/* Navigation links */
-.sidebar-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.sidebar-nav a {
-  text-decoration: none;
-  font-size: 0.95rem;
-  font-weight: 500;
-  padding: 0.35rem 0.25rem;
-  border-radius: 6px;
-  transition: background-color 0.15s ease, color 0.15s ease;
-}
-
-.sidebar-nav a:hover,
-.sidebar-nav a:focus {
-  background-color: #111111;
-  color: #ffffff !important;
-  text-decoration: none;
-}
-
-/* Social / quick links */
-.sidebar-links {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  font-size: 0.9rem;
-  border-top: 1px solid #222222;
-  padding-top: 1rem;
-}
-
-.sidebar-links a {
-  text-decoration: none;
-}
-
-.sidebar-links a:hover,
-.sidebar-links a:focus {
-  text-decoration: underline;
-}
-
-/* Desktop breakpoint: sidebar left, content right */
-@media (min-width: 900px) {
-  .layout-with-sidebar {
-    align-items: flex-start;
-  }
-
-  .sidebar {
-    flex: 0 0 260px;
-    position: sticky;
-    top: 1.5rem;
-    margin-bottom: 0;
-  }
-
-  .content-with-sidebar {
-    flex: 1 1 auto;
-  }
-}
-
-/* Small screens: stack vertically */
-@media (max-width: 899px) {
-  .layout-with-sidebar {
-    flex-direction: column;
-  }
-}
-
-/* ========================= */
-/* Fix header logo size      */
-/* ========================= */
-
-/* Either SHRINK the logo in the top header ... */
+/* Remove Minima's giant header logo */
 .site-header .site-title img {
-  max-height: 48px;
+  display: none !important;
+}
+
+/* If you prefer to show a SMALL header logo instead, comment the above and use below:
+.site-header .site-title img {
+  max-height: 40px;
   width: auto;
   border-radius: 50%;
 }
-
-/* ... OR, if you prefer to hide the header logo completely and only show it in the sidebar, comment the above
-   block and uncomment the one below:
-
-.site-header .site-title img {
-  display: none;
-}
 */
 
-/* ========================= */
-/* Sidebar layout + styling  */
-/* ========================= */
+
+
+/* ===================================== */
+/* 3) Sidebar Layout & Styling           */
+/* ===================================== */
 
 .layout-with-sidebar {
   display: flex;
   gap: 2rem;
 }
 
-/* Sidebar card */
+/* Sidebar container */
 .sidebar {
   background-color: #070707;
   border: 1px solid #222222;
   border-radius: 12px;
   padding: 1.5rem;
   margin-bottom: 2rem;
+  min-width: 240px;
 }
 
-/* Main content next to sidebar */
+/* Main content area beside sidebar */
 .content-with-sidebar {
+  flex: 1 1 auto;
   width: 100%;
 }
 
-/* Profile section inside sidebar */
+
+/* ---------- Profile Section ---------- */
+
 .sidebar-profile {
   text-align: center;
   margin-bottom: 1.5rem;
 }
 
-/* Sidebar avatar (smaller, controlled size) */
 .sidebar-avatar {
   width: 96px;
   height: 96px;
@@ -253,7 +144,9 @@ input, textarea, select {
   color: #b3b3b3 !important;
 }
 
-/* Navigation links */
+
+/* ---------- Navigation Links ---------- */
+
 .sidebar-nav {
   display: flex;
   flex-direction: column;
@@ -266,58 +159,3 @@ input, textarea, select {
   font-size: 0.95rem;
   font-weight: 500;
   padding: 0.35rem 0.25rem;
-  border-radius: 6px;
-  transition: background-color 0.15s ease, color 0.15s ease;
-}
-
-.sidebar-nav a:hover,
-.sidebar-nav a:focus {
-  background-color: #111111;
-  color: #ffffff !important;
-  text-decoration: none;
-}
-
-/* Social / quick links */
-.sidebar-links {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  font-size: 0.9rem;
-  border-top: 1px solid #222222;
-  padding-top: 1rem;
-}
-
-.sidebar-links a {
-  text-decoration: none;
-}
-
-.sidebar-links a:hover,
-.sidebar-links a:focus {
-  text-decoration: underline;
-}
-
-/* Desktop breakpoint: sidebar left, content right */
-@media (min-width: 900px) {
-  .layout-with-sidebar {
-    align-items: flex-start;
-  }
-
-  .sidebar {
-    flex: 0 0 260px;
-    position: sticky;
-    top: 1.5rem;
-    margin-bottom: 0;
-  }
-
-  .content-with-sidebar {
-    flex: 1 1 auto;
-  }
-}
-
-/* Small screens: stack vertically */
-@media (max-width: 899px) {
-  .layout-with-sidebar {
-    flex-direction: column;
-  }
-}
-
