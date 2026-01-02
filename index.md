@@ -31,7 +31,7 @@ title: "Home"
 
 - **Transformer + VQ-VAE** generative architecture  
 - Generates listener avatar (face + upper body) conditioned on **personality**
-- Evaluated with metrics **FID, P-FID**, and user studies (86% trait recognition)
+- Evaluated with **FID, P-FID**, and user studies (86% trait recognition)
 
 <p align="center">
   <img src="{{ '/assets/final-avatars.gif' | relative_url }}" width="75%">
@@ -39,7 +39,7 @@ title: "Home"
 
 **Live Demo:** [Thesis Website](https://master-thesis-amr-amer.streamlit.app/)  
 **Repository:** [Thesis Codebase](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation)
- 
+
 ---
 
 ## 🩺 Key Project — Medical Imaging
@@ -59,16 +59,37 @@ title: "Home"
 
 ---
 
+## 🚗 Computer Vision — Autonomous Driving
+
+### Semantic Segmentation for Autonomous Vehicles
+- **End-to-end ML workflow** for semantic segmentation on real-world driving scenes
+- Dataset: **BDD100K**
+- Classes: road, traffic signs/lights, vehicles, pedestrians, bicycles
+- **Experiment tracking & hyperparameter optimization** with Weights & Biases
+- Modular training & evaluation pipeline (Colab + local + multi-GPU ready)
+
+<p align="center">
+  <img src="https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow/blob/main/media/final_segmentation.gif" width="75%">
+</p>
+
+**Repository:**  
+[Semantic Segmentation Model for Autonomous Vehicles — End-to-End ML Workflow](https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow)
+
+**Tech:** PyTorch · Fastai · W&B · Computer Vision · Model Optimization
+
+---
+
 ## 🏸 Sports Analytics — Computer Vision
 
 ### Badminton Shot Type Classification & Player Tracking
 - Shot detection with **Roboflow + Supervision**
 - Real-time tracking (players + shuttle)
-- Visualization dashboard with analytics
+- Analytics & visualization dashboard
 
 <!--
-**Repo:** https://github.com/amramer/badminton-ai-tracking  
+**Repo:** https://github.com/amramer/badminton-ai-tracking
 -->
+
 **Tech:** OpenCV · YOLO · Supervision · Streamlit
 
 ---
@@ -76,20 +97,14 @@ title: "Home"
 ## 🧠 Tech Stack
 
 | Category | Tools |
-|----------|--------|
+|--------|-------|
 | ML & CV | PyTorch, MONAI, OpenCV, Roboflow, Transformers |
+| Experimentation | Weights & Biases, Hyperparameter Sweeps |
 | Deployment | Streamlit, Docker, CUDA, SLURM (HPC) |
-| Data | Python, Pandas, NumPy, Dataloading, Multi-GPU Training |
-| Domains | Medical Imaging, Sports Tracking, Generative Models, Multimodal AI |
+| Data | Python, Pandas, NumPy, Multi-GPU Training |
+| Domains | Medical Imaging, Autonomous Driving, Sports Analytics, Generative Models |
 
 ---
-
-<!--
-## 📄 Resume
-
-[Download My Resume (PDF)](assets/resume.pdf)
-
--->
 
 ## 📬 Contact
 
@@ -97,5 +112,3 @@ If you're hiring or would like to collaborate:
 
 **Email:** amribrahim.amer@gmail.com  
 **LinkedIn:** https://www.linkedin.com/in/amr-amer-2023-cs/
-
----
