@@ -1,15 +1,32 @@
 # Personal Portfolio — Amr Amer
 
-This repository hosts my public portfolio website:  
-**https://amramer.github.io**
+This repository hosts my personal portfolio website:
 
-It showcases my:
-- Master's Thesis: Personality-aware non-verbal behavior generation (Transformer + VQ-VAE)
-- Computer Vision projects (medical imaging, tracking, sports analytics)
-- Interactive demos (Streamlit / real-time applications)
-- Skills in ML Engineering, and multimodal AI development
+🌐 **https://amramer.github.io**
 
-The site is deployed using **GitHub Pages**.
+The site presents selected work as a **Machine Learning Engineer** with a focus on
+**Computer Vision** and **Multimodal Generative Models**.
 
-**Live Portfolio:** https://amramer.github.io  
-**LinkedIn:** https://www.linkedin.com/in/amr-amer-2023-cs/
+## Overview
+
+- **Master’s Thesis**: Personality-aware non-verbal behavior generation (Transformer + VQ-VAE)
+- **Computer Vision Projects**:  
+  Medical imaging, autonomous driving, and sports analytics
+- **End-to-End ML Systems**:  
+  Training, evaluation, optimization, and visualization pipelines
+- **Applied Demos**:  
+  Interactive applications for model analysis and presentation
+
+## Tech Stack
+
+PyTorch · MONAI · OpenCV · Transformers · Weights & Biases · CUDA
+
+## Deployment
+
+Deployed via **GitHub Pages**.
+
+## Links
+
+- 🌐 Portfolio: https://amramer.github.io  
+- 💼 LinkedIn: https://www.linkedin.com/in/amr-amer-2023-cs/  
+- 🧑‍💻 GitHub: https://github.com/amramer
