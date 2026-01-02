@@ -69,7 +69,7 @@ title: "Home"
 - Modular training & evaluation pipeline (Colab + local + multi-GPU ready)
 
 <p align="center">
-  <img src="https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow/blob/main/media/final_segmentation.gif" width="75%">
+  <img src="{{ '/assets/final_segmentation.gif' | relative_url }} width="75%">
 </p>
 
 **Repository:**  
