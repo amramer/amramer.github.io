@@ -44,7 +44,7 @@ title: "Home"
 
 - Transformer + VQ-VAE generative architecture
 - Generates listener avatar (face + upper body) conditioned on personality traits
-- Evaluated using **FID**, **P-FID** metrics, and large-scale user studies
+- Evaluated using Fréchet Distance (FD), Paired FD (P-FD), and user studies
 - User study achieved **86% personality trait recognition accuracy**
 
 <p align="center">
@@ -57,7 +57,7 @@ https://master-thesis-amr-amer.streamlit.app/
 **Repository:**  
 https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation
 
-Tech Used: Python · PyTorch · Transformers · VQ-VAE · SMPL-X (PIXIE)
+**Tech Used:** Python · PyTorch · Transformers · VQ-VAE · SMPL-X (PIXIE)
 OpenCV · CUDA  · Librosa · Slurm/Enroot · Multi-GPU (A100) · TensorBoard
 
 ---
@@ -82,8 +82,7 @@ Multi-label **3D semantic segmentation** of glioma sub-regions from volumetric M
 **Repository:**  
 https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning
 
-**Tech Used:**  
-PyTorch · MONAI · 3D SegResNet · Multi-modal MRI  
+**Tech Used:**  PyTorch · MONAI · 3D SegResNet · Multi-modal MRI  
 3D Medical Image Transforms · Sliding Window Inference · Experiment Tracking with W&B
 
 ---
@@ -111,8 +110,7 @@ End-to-end **semantic segmentation** of urban street scenes for autonomous drivi
 **Repository:**  
 https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow
 
-**Tech Used:**  
-PyTorch · Fastai · Semantic Segmentation · Hyperparameter Optimization · Experiment Tracking
+**Tech Used:**  PyTorch · Fastai · Semantic Segmentation · Hyperparameter Optimization · Experiment Tracking
 
 
 ---
