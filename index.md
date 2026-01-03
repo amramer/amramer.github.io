@@ -8,9 +8,6 @@ title: "Home"
   <div class="hero-text">
     <h1>Hi, I'm <strong>Amr Amer</strong></h1>
     <h3>Machine Learning Engineer | Computer Vision | Multimodal Generative Models</h3>
-    <p class="hero-subtitle">
-      M.Sc. in Visual Computing — Universität des Saarlandes
-    </p>
 
     <p>
       I design and build <strong>end-to-end machine learning systems</strong> with a focus on
