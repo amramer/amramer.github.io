@@ -34,17 +34,16 @@ title: "Home"
 - Build <strong>end-to-end ML pipelines</strong>: data → training → evaluation → deployment & visualization  
 - Optimize models through <strong>systematic experimentation</strong> and hyperparameter tuning  
 - Develop interactive demos and dashboards for analysis and presentation  
- 
 
 ---
 
-## 🔥 Featured Project — Master's Thesis
+## 🔥 Featured Project — Master’s Thesis
 
 ### Personality-Aware Non-verbal Behavior Generation in Dyadic Interactions
 
-- Transformer + VQ-VAE generative architecture
-- Generates listener avatar (face + upper body) conditioned on personality traits
-- Evaluated using Fréchet Distance (FD), Paired FD (P-FD), and user studies
+- Transformer + VQ-VAE generative architecture  
+- Generates **listener avatars (face + upper body)** conditioned on personality traits  
+- Evaluated using **Fréchet Distance (FD)**, **Paired FD (P-FD)**, and user studies  
 - User study achieved **86% personality trait recognition accuracy**
 
 <p align="center">
@@ -55,35 +54,39 @@ title: "Home"
 https://master-thesis-amr-amer.streamlit.app/
 
 **Repository:**  
-https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation
+[Personality-Aware-Non-verbal-Behavior-Generation](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation)
 
-**Tech Used:** Python · PyTorch · Transformers · VQ-VAE · SMPL-X (PIXIE)
-OpenCV · CUDA  · Librosa · Slurm/Enroot · Multi-GPU (A100) · TensorBoard
+**Tech Used:**  
+Python · PyTorch · Transformers · VQ-VAE · SMPL-X (PIXIE)  
+OpenCV · CUDA · Librosa · SLURM / Enroot · Multi-GPU (A100) · TensorBoard
 
 ---
 
-# 3D Brain Tumor Segmentation (MRI)
+## 🩺 Medical Imaging — Computer Vision
+
+### 3D Brain Tumor Segmentation (MRI)
 
 Multi-label **3D semantic segmentation** of glioma sub-regions from volumetric MRI scans.
 
-- **Dataset:** Medical Decathlon / BraTS (multi-modal MRI)
-- **Model:** 3D SegResNet (MONAI)
-- **Input Modalities:** FLAIR · T1 · T1Gd · T2
-- **Target Structures:** Whole Tumor (**WT**), Tumor Core (**TC**), Enhancing Tumor (**ET**)
-- **Training & Evaluation:** Dice Loss and Mean Dice
+- **Dataset:** Medical Decathlon / BraTS (multi-modal MRI)  
+- **Model:** 3D SegResNet (MONAI)  
+- **Input Modalities:** FLAIR · T1 · T1Gd · T2  
+- **Target Structures:** Whole Tumor (**WT**), Tumor Core (**TC**), Enhancing Tumor (**ET**)  
+- **Training & Evaluation:** Dice Loss and Mean Dice  
 - **Results:** **Mean Dice = 0.78** on validation  
-  (WT: **0.90**, TC: **0.82**, ET: **0.59**)
-- **Pipeline:** preprocessing → training → inference → visualization
+  (WT: **0.90**, TC: **0.82**, ET: **0.59**)  
+- **Pipeline:** preprocessing → training → inference → visualization  
 
 <p align="center">
   <img src="media/visualize-dec-dataset.gif" width="75%" alt="Brain tumor segmentation">
 </p>
 
 **Repository:**  
-https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning
+[3D Brain Tumor Segmentation](https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning)
 
-**Tech Used:**  PyTorch · MONAI · 3D SegResNet · Multi-modal MRI  
-3D Medical Image Transforms · Sliding Window Inference · Experiment Tracking with W&B
+**Tech Used:**  
+PyTorch · MONAI · 3D SegResNet · Multi-modal MRI  
+3D Medical Image Transforms · Sliding Window Inference · Experiment Tracking (W&B)
 
 ---
 
@@ -93,14 +96,14 @@ https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning
 
 End-to-end **semantic segmentation** of urban street scenes for autonomous driving perception.
 
-- **Dataset:** BDD100K
-- **Task:** Multi-class semantic segmentation
-- **Classes:** Road, Traffic Light, Traffic Sign, Vehicle, Person, Bicycle, Background
-- **Evaluation:** mean Intersection over Union (**mIoU**)
+- **Dataset:** BDD100K  
+- **Task:** Multi-class semantic segmentation  
+- **Classes:** Road, Traffic Light, Traffic Sign, Vehicle, Person, Bicycle, Background  
+- **Evaluation:** mean Intersection over Union (**mIoU**)  
 - **Results:** Achieved **mIoU ≈ 0.45**, with strong performance on dominant classes  
-  (Road: ~0.88, Vehicle: ~0.78)
-- **Optimization:** Systematic **hyperparameter optimization** via experiment sweeps
-- **Pipeline:** data preparation → training → evaluation → visualization
+  (Road: ~0.88, Vehicle: ~0.78)  
+- **Optimization:** Systematic **hyperparameter optimization** via experiment sweeps  
+- **Pipeline:** data preparation → training → evaluation → visualization  
 
 <p align="center">
   <img src="https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow/blob/main/media/final_segmentation.gif?raw=true"
@@ -108,10 +111,10 @@ End-to-end **semantic segmentation** of urban street scenes for autonomous drivi
 </p>
 
 **Repository:**  
-https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow
+[Semantic Segmentation for Autonomous Vehicles](https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow)
 
-**Tech Used:**  PyTorch · Fastai · Semantic Segmentation · Hyperparameter Optimization · Experiment Tracking
-
+**Tech Used:**  
+PyTorch · Fastai · Semantic Segmentation · Hyperparameter Optimization · Experiment Tracking
 
 ---
 
@@ -119,18 +122,13 @@ https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-A
 
 ### Badminton Shot Type Classification & Player Tracking
 
-- Ongoing project focused on **real-time sports analytics**
-- Multi-object tracking of players and shuttlecock
-- Shot type classification using **Roboflow + Supervision**
-- Emphasis on **temporal consistency**, tracking robustness, and visualization
-- Interactive analytics dashboard for performance analysis
+- Ongoing project focused on **real-time sports analytics**  
+- Multi-object tracking of players and shuttlecock  
+- Shot type classification using **Roboflow + Supervision**  
+- Emphasis on **temporal consistency**, tracking robustness, and visualization  
+- Interactive analytics dashboard for performance analysis  
 
-<!--
-Repository (to be published):
-https://github.com/amramer/badminton-ai-tracking
--->
-
-**Tech:** OpenCV · YOLO · Supervision · Streamlit
+**Tech Used:** OpenCV · YOLO · Supervision · Streamlit
 
 ---
 
@@ -144,18 +142,7 @@ https://github.com/amramer/badminton-ai-tracking
 | Data | Python, Pandas, NumPy, Multi-GPU Training |
 | Domains | Medical Imaging, Autonomous Driving, Sports Analytics, Generative Models |
 
-<!--
 ---
-
-## 📄 Resume
-
-For a detailed overview of my experience, technical skills, and projects:
-
-**[Download Resume (PDF)]({{ '/assets/Amr_Amer_Resume.pdf' | relative_url }})**
-
----
--->
-
 
 ## 📬 Contact
 
