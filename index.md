@@ -51,10 +51,10 @@ title: "Home"
 </p>
 
 **Live Demo:**  
-https://master-thesis-amr-amer.streamlit.app/
+[Thesis website](https://master-thesis-amr-amer.streamlit.app/)
 
 **Repository:**  
-[Personality-Aware-Non-verbal-Behavior-Generation](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation)
+[Github repo.](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation)
 
 **Tech Used:**  
 Python · PyTorch · Transformers · VQ-VAE · SMPL-X (PIXIE)  
@@ -73,16 +73,15 @@ Multi-label **3D semantic segmentation** of glioma sub-regions from volumetric M
 - **Input Modalities:** FLAIR · T1 · T1Gd · T2  
 - **Target Structures:** Whole Tumor (**WT**), Tumor Core (**TC**), Enhancing Tumor (**ET**)  
 - **Training & Evaluation:** Dice Loss and Mean Dice  
-- **Results:** **Mean Dice = 0.78** on validation  
-  (WT: **0.90**, TC: **0.82**, ET: **0.59**)  
-- **Pipeline:** preprocessing → training → inference → visualization  
+- **Results:** **Mean Dice = 0.78** on validation (WT: **0.90**, TC: **0.82**, ET: **0.59**)  
+- **Pipeline:** preprocessing → training → inference → deployment & visualization 
 
 <p align="center">
-  <img src="media/visualize-dec-dataset.gif" width="75%" alt="Brain tumor segmentation">
+  <img src="{{ '/assets/visualize-dec-dataset.gif' | relative_url }}" width="75%" alt="Brain tumor segmentation">
 </p>
 
 **Repository:**  
-[3D Brain Tumor Segmentation](https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning)
+[Github repo.](https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning)
 
 **Tech Used:**  
 PyTorch · MONAI · 3D SegResNet · Multi-modal MRI  
@@ -103,15 +102,15 @@ End-to-end **semantic segmentation** of urban street scenes for autonomous drivi
 - **Results:** Achieved **mIoU ≈ 0.45**, with strong performance on dominant classes  
   (Road: ~0.88, Vehicle: ~0.78)  
 - **Optimization:** Systematic **hyperparameter optimization** via experiment sweeps  
-- **Pipeline:** data preparation → training → evaluation → visualization  
+- **Pipeline:** data preparation → training → evaluation → deployment & visualization  
 
 <p align="center">
-  <img src="https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow/blob/main/media/final_segmentation.gif?raw=true"
-       width="75%" alt="Autonomous driving segmentation results">
+  <img src="{{ '/assets/final_segmentation.gif' | relative_url }}" width="75%" alt="Autonomous driving segmentation results">
 </p>
 
+
 **Repository:**  
-[Semantic Segmentation for Autonomous Vehicles](https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow)
+[Github repo.](https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow)
 
 **Tech Used:**  
 PyTorch · Fastai · Semantic Segmentation · Hyperparameter Optimization · Experiment Tracking
