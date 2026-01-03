@@ -47,7 +47,7 @@ title: "Home"
 - User study achieved **86% personality trait recognition accuracy**
 
 <p align="center">
-  <img src="{{ '/assets/final-avatars.gif' | relative_url }}" width="75%" alt="Generated avatars">
+  <img src="{{ '/assets/final-avatars.gif' | relative_url }}" width="78%" alt="Generated avatars">
 </p>
 
 **Live Demo:**  
@@ -77,7 +77,7 @@ Multi-label **3D semantic segmentation** of glioma sub-regions from volumetric M
 - **Pipeline:** preprocessing → training → inference → deployment & visualization 
 
 <p align="center">
-  <img src="{{ '/assets/visualize-dec-dataset.gif' | relative_url }}" width="75%" alt="Brain tumor segmentation">
+  <img src="{{ '/assets/visualize-dec-dataset.gif' | relative_url }}" width="78%" alt="Brain tumor segmentation">
 </p>
 
 **Repository:**  
@@ -105,7 +105,7 @@ End-to-end **semantic segmentation** of urban street scenes for autonomous drivi
 - **Pipeline:** data preparation → training → evaluation → deployment & visualization  
 
 <p align="center">
-  <img src="{{ '/assets/final_segmentation.gif' | relative_url }}" width="75%" alt="Autonomous driving segmentation results">
+  <img src="{{ '/assets/final_segmentation.gif' | relative_url }}" width="78%" alt="Autonomous driving segmentation results">
 </p>
 
 
