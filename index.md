@@ -135,8 +135,8 @@ PyTorch · Fastai · Semantic Segmentation · Hyperparameter Optimization · Exp
 
 | Area | Skills & Tools |
 |----|----|
-| **Computer Vision Tasks** | Object Detection · Segmentation (2D/3D) · Tracking · Video Analytics · Image Understanding |
-| **Models & Frameworks** | PyTorch · OpenCV · Transformers · YOLO · SAM · CNNs · Vision Transformers (ViT) |
+| **Computer Vision Tasks** | Object Detection· Segmentation · Tracking · Video Motion Analysis · Digital Avatar Generation |
+| **Models & Frameworks** | PyTorch · Tensorflow · OpenCV · · YOLO · SAM · CNNs · Vision Transformers (ViT) ·  TrackNet. Supervision|
 | **Training & Evaluation** | Transfer Learning · Fine-tuning · Loss Design · Metric Selection · Hyperparameter Optimization · Multi-GPU Training (CUDA) |
 | **Data & Experimentation** | Dataset Preparation · Data Augmentation · Efficient Data Loading · Weights & Biases · TensorBoard · Ablation Studies |
 | **Deployment & Inference** | Docker · GPU Inference Pipelines · Batch & Real-time Inference · AWS (EC2 GPU) · Streamlit (Demos) |
