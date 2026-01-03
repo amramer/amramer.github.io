@@ -131,15 +131,18 @@ PyTorch · Fastai · Semantic Segmentation · Hyperparameter Optimization · Exp
 
 ---
 
-## 🧠 Tech Stack
+## 🧠 Technical Profile
 
-| Category | Tools |
-|--------|------|
-| ML & CV | PyTorch, MONAI, OpenCV, Roboflow, Transformers |
-| Experimentation | Weights & Biases, Hyperparameter Sweeps |
-| Deployment | Streamlit, Docker, CUDA, SLURM (HPC) |
-| Data | Python, Pandas, NumPy, Multi-GPU Training |
-| Domains | Medical Imaging, Autonomous Driving, Sports Analytics, Generative Models |
+| Area | Skills & Tools |
+|----|----|
+| **Computer Vision Tasks** | Object Detection · Segmentation (2D/3D) · Tracking · Video Analytics · Image Understanding |
+| **Models & Frameworks** | PyTorch · OpenCV · Transformers · YOLO · SAM · CNNs · Vision Transformers (ViT) |
+| **Training & Evaluation** | Transfer Learning · Fine-tuning · Loss Design · Metric Selection · Hyperparameter Optimization · Multi-GPU Training (CUDA) |
+| **Data & Experimentation** | Dataset Preparation · Data Augmentation · Efficient Data Loading · Weights & Biases · TensorBoard · Ablation Studies |
+| **Deployment & Inference** | Docker · GPU Inference Pipelines · Batch & Real-time Inference · AWS (EC2 GPU) · Streamlit (Demos) |
+| **Compute & Infrastructure** | SLURM (HPC) · GPU Job Scheduling · Multi-node Training · Large-scale GPU Experiments |
+| **Software Engineering Foundations** | Python · C++. Object-Oriented Design · Version Control (Git) · Debugging · Logging · Unit Testing |
+
 
 ---
 
