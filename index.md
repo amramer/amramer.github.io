@@ -6,7 +6,6 @@ title: "Home"
 <div class="hero">
   <img src="{{ site.logo | relative_url }}" alt="Profile photo of Amr Amer" class="hero-avatar">
   <div class="hero-text">
-    <h1>Hi, I'm <strong>Amr Amer</strong></h1>
     <h3>Machine Learning Engineer | Computer Vision | Multimodal Generative Models</h3>
 
     <p>
