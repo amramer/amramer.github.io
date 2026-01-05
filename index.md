@@ -115,7 +115,7 @@ End-to-end **semantic segmentation** of urban street scenes for autonomous drivi
 
 ## 🏸 Sports Analytics — Computer Vision
 
-### Badminton Shot Type Classification & Player Tracking
+###  Badminton-VisionAI
 
 - Ongoing project focused on **real-time sports analytics**  
 - Multi-object tracking of players and shuttlecock  
