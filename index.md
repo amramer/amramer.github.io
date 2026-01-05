@@ -117,6 +117,8 @@ End-to-end **semantic segmentation** of urban street scenes for autonomous drivi
 
 ###  Badminton-VisionAI
 
+Real-time AI-driven badminton analytics system with player and shuttlecock tracking, mini-court projection, shot type and power analysis, and Streamlit-dashboard.
+
 - Ongoing project focused on **real-time sports analytics**  
 - Multi-object tracking of players and shuttlecock  
 - Shot type classification using **Roboflow + Supervision**  
