@@ -152,15 +152,15 @@ Outside of my professional work, I enjoy aerial photography and videography usin
 This section highlights selected visual projects created in my free time.
 
 <p align="center">
-  <iframe width="40%"
+  <iframe width="50%"
     src="https://player.vimeo.com/video/1152190588"
     frameborder="0" allowfullscreen></iframe>
 
-  <iframe width="40%"
+  <iframe width="50%"
     src="https://player.vimeo.com/video/1152190476"
     frameborder="0" allowfullscreen></iframe>
 
-  <iframe width="40%"
+  <iframe width="50%"
     src="https://player.vimeo.com/video/1152190673"
     frameborder="0" allowfullscreen></iframe>
 </p>
