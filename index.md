@@ -144,6 +144,32 @@ Real-time AI-driven badminton analytics system with player and shuttlecock track
 
 ---
 
+---
+
+## 🎥 Beyond Work
+
+Outside of my professional work, I enjoy aerial photography and videography using drones.
+This section highlights selected visual projects created in my free time.
+
+<p align="center">
+  <video width="30%" controls>
+    <source src="{{ '/assets/drone_video_1.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <video width="30%" controls>
+    <source src="{{ '/assets/drone_video_2.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <video width="30%" controls>
+    <source src="{{ '/assets/drone_video_3.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+---
+
 ## 📬 Contact
 
 If you're hiring or would like to collaborate:
