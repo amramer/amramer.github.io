@@ -152,24 +152,25 @@ Outside of my professional work, I enjoy aerial photography and videography usin
 This section highlights selected visual projects created in my free time.
 
 <p align="center">
-  <!-- YouTube -->
-  <iframe width="30%" height="200"
-    src="https://vimeo.com/1152190588?fl=ip&fe=ec"
+  <iframe width="40%"
+    src="https://player.vimeo.com/video/1152190588"
     frameborder="0" allowfullscreen></iframe>
 
-  <!-- YouTube -->
-  <iframe width="30%" height="200"
-    src="https://vimeo.com/1152190476?fl=pl&fe=sh"
+  <iframe width="40%"
+    src="https://player.vimeo.com/video/1152190476"
     frameborder="0" allowfullscreen></iframe>
 
-  <!-- Vimeo -->
-  <iframe width="30%" height="200"
-    src="https://vimeo.com/1152190673?fl=ip&fe=ec"
+  <iframe width="40%"
+    src="https://player.vimeo.com/video/1152190673"
     frameborder="0" allowfullscreen></iframe>
 </p>
 
+<p align="center">
+  <a href="https://vimeo.com/amramer252805454" target="_blank">
+    View more Drone videos on Vimeo →
+  </a>
+</p>
 
----
 
 ## 📬 Contact
 
