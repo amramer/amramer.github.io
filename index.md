@@ -129,6 +129,29 @@ Real-time AI-driven badminton analytics system with player and shuttlecock track
 
 ---
 
+## 🎙️ Conversational AI — Voice Assistant (Ongoing)
+### AI Conversational Agent with Voice, Avatar, and Web Interface
+
+Conversational AI system enabling real-time voice and text interaction through a custom web-based interface.
+
+- Speech-to-text and text-to-speech for natural dialogue
+
+- LLM-powered conversational reasoning
+
+- Human-like conversational avatar integrated into the UI
+
+- Modular frontend–backend design for extensibility
+
+<p align="center">
+  <img src="{{ '/assets/AI-conversationa-assistant.png' | relative_url }}" width="78%" alt="AI Conversational Agent Web-interface">
+</p>
+
+**Tech Used:** Python · OpenAI GPT · Speech-to-Text · Text-to-Speech · HTML · CSS · JavaScript · Bootstrap · jQuery
+
+**Status:** 🚧 Ongoing
+
+---
+
 ## 🧠 Technical Profile
 
 | Area | Skills & Tools |
