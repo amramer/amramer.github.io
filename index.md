@@ -142,7 +142,7 @@ Real-time AI-driven badminton analytics system with player and shuttlecock track
 | **Software Engineering Foundations** | Python · C++. Object-Oriented Design · Version Control (Git) · Debugging · Logging · Unit Testing |
 
 
----
+
 
 ---
 
@@ -152,21 +152,22 @@ Outside of my professional work, I enjoy aerial photography and videography usin
 This section highlights selected visual projects created in my free time.
 
 <p align="center">
-  <video width="30%" controls>
-    <source src="{{ '/assets/drone_video_1.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <!-- YouTube -->
+  <iframe width="30%" height="200"
+    src="https://vimeo.com/1152190588?fl=ip&fe=ec"
+    frameborder="0" allowfullscreen></iframe>
 
-  <video width="30%" controls>
-    <source src="{{ '/assets/drone_video_2.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <!-- YouTube -->
+  <iframe width="30%" height="200"
+    src="https://vimeo.com/1152190476?fl=pl&fe=sh"
+    frameborder="0" allowfullscreen></iframe>
 
-  <video width="30%" controls>
-    <source src="{{ '/assets/drone_video_3.mp4' | relative_url }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <!-- Vimeo -->
+  <iframe width="30%" height="200"
+    src="https://vimeo.com/1152190673?fl=ip&fe=ec"
+    frameborder="0" allowfullscreen></iframe>
 </p>
+
 
 ---
 
