@@ -143,7 +143,7 @@ Conversational AI system enabling real-time voice and text interaction through a
 - Modular frontend–backend design for extensibility
 
 <p align="center">
-  <img src="{{ '/assets/AI-conversationa-assistant.png' | relative_url }}" width="78%" alt="AI Conversational Agent Web-interface">
+  <img src="{{ '/assets/AI-conversationa-assistant.png' | relative_url }}" width="82%" alt="AI Conversational Agent Web-interface">
 </p>
 
 **Tech Used:** Python · OpenAI GPT · Speech-to-Text · Text-to-Speech · HTML · CSS · JavaScript · Bootstrap · jQuery
