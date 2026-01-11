@@ -152,6 +152,30 @@ Conversational AI system enabling real-time voice and text interaction through a
 
 ---
 
+## Vision–Language Models  
+### Realtime Vision Captioning
+
+Exploratory project focused on applying **vision–language models in realtime webcam-based settings**.
+
+- Realtime image captioning and visual question answering using **BLIP** via **Hugging Face Transformers**  
+- Image classification using **ResNet-50** pretrained on **ImageNet**  
+- Realtime **Gradio-based webcam application** for live image captioning and classification with adjustable inference parameters  
+
+The project is implemented as a set of Jupyter notebooks, progressing from offline image understanding to **a realtime vision application**.
+
+<p align="center">
+  <img src="{{ '/assets/realtime-app.gif' | relative_url }}" width="85%" alt="realtime vision capitioning">
+</p>
+
+**Repository:**  
+[Github repo.](https://github.com/amramer/realtime-vision-captioning)
+
+**Tech Used:**  
+Python · PyTorch · Torchvision · Hugging Face Transformers · Gradio · PIL · NumPy
+
+
+---
+
 ## 🧠 Technical Profile
 
 | Area | Skills & Tools |
