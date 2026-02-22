@@ -98,7 +98,6 @@ Python · OpenCV · YOLO · Multi-Object Tracking
 Court Homography & Projection · Shot Event Detection  
 Plotly Analytics · ReportLab PDF Export  
 
----
 
 ### Demo & Links
 
