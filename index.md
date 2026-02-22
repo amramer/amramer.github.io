@@ -38,6 +38,7 @@ title: "Home"
 
 # ⭐ Featured Projects
 
+
 ## 🎓 Master’s Thesis  
 
 **Thesis Topic:** Personality-Aware Non-verbal Behavior Generation in Dyadic Interactions
@@ -62,6 +63,7 @@ OpenCV · CUDA · Librosa · SLURM / Enroot · Multi-GPU (A100) · TensorBoard
 
 ---
 
+
 ## 🏸 Badminton-VisionAI — AI Match Analytics from Video
 
 Badminton-VisionAI is an end-to-end computer vision system that turns badminton match videos into structured performance analytics for coaches and players.
@@ -82,8 +84,6 @@ Badminton is one of the hardest sports for computer vision:
 
 This project combines detection, tracking, geometry, and temporal analytics to produce **coach-readable insights**, not just raw detections.
 
----
-
 ### Key Features
 
 - Player tracking with stable IDs  
@@ -92,19 +92,6 @@ This project combines detection, tracking, geometry, and temporal analytics to p
 - Mini-court projection using court geometry  
 - Interactive analytics dashboard  
 - Downloadable coach report (PDF) with movement & shot analysis  
-
----
-
-### My Contributions
-
-- Designed the full pipeline: video → tracking → analytics → report  
-- Implemented player and shuttle tracking with consistent IDs  
-- Built shot-event detection and stabilization logic  
-- Created modular analytics tabs (Positioning / Court Control / Shot Profile)  
-- Designed coach-report export with performance insights  
-- Structured JSON outputs for reproducibility and evaluation  
-
----
 
 ### Tech Used
 
@@ -123,6 +110,7 @@ Plotly Analytics · ReportLab PDF Export
 ---
 
 # 🧠 Other Projects
+
 
 ## 🩺 Medical Imaging — Computer Vision
 
