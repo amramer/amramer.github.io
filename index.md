@@ -69,27 +69,40 @@ Badminton-VisionAI is an end-to-end computer vision system that turns badminton 
 
 It tracks **both players and the shuttlecock**, analyzes shot events, projects motion onto a mini-court, and generates a downloadable **coach-style report**.
 
-*(Insert your best dashboard screenshot here)*
+### 🎥 System Demo
+
+| Tracking Pipeline Output | Final Analytics Dashboard |
+|--------------------------|---------------------------|
+| ![Tracking Demo](assets/badminton_tracking.gif) | ![Dashboard Demo](assets/badminton_dashboard.gif) |
+
+*(Left: Player + shuttle tracking with mini-court projection.  
+Right: Final analytics dashboard with positioning, shot analysis, and coach report generation.)*
+
+Generated coach report example:
+
+<p align="center">
+  <img src="{{ '/assets/coach-report.png' | relative_url }}" width="70%" alt="Coach Report Example">
+</p>
 
 
 ### Why This Project Is Interesting
 
-Badminton is one of the hardest sports for computer vision:
+Badminton tracking is a challenging domain for computer vision:
 
-- Shuttlecock is very small and extremely fast  
-- Players occlude each other frequently  
-- Rapid direction changes break naïve tracking  
+- Shuttlecock is extremely small and fast   
+- Players frequently occlude each other   
+- Rapid direction changes break naive trackers   
 
 This project combines detection, tracking, geometry, and temporal analytics to produce **coach-readable insights**, not just raw detections.
 
 ### Key Features
 
-- Player tracking with stable IDs  
-- Shuttlecock trajectory tracking and speed estimation  
-- Shot event detection with temporal stabilization  
-- Mini-court projection using court geometry  
-- Interactive analytics dashboard  
-- Downloadable coach report (PDF) with movement & shot analysis  
+- Stable multi-object player tracking  
+- Shuttlecock trajectory tracking with speed estimation  
+- Shot type detection with temporal stabilization  
+- Mini-court projection using homography  
+- Interactive analytics dashboard for match analysis  
+- Downloadable coach report with movement & shot statistics  
 
 ### Tech Used
 
@@ -102,7 +115,18 @@ Plotly Analytics · ReportLab PDF Export
 
 - 🎥 Demo Video: *(add link)*  
 - 💻 Repository: *(add GitHub repo link)*  
-- 📄 Sample Coach Report: *(optional)*  
+- 📄 Sample Coach Report: *(optional)*
+
+### My Contribution
+
+I designed and implemented the system end-to-end:
+
+- Built the tracking pipeline and court projection logic  
+- Implemented shot detection with label stabilization  
+- Developed the analytics dashboard and coach report export  
+- Structured the project as modular components for experimentation and reuse  
+
+This project reflects my interest in **real-world computer vision systems** that connect model outputs to actionable insights.
 
 ---
 
