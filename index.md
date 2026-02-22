@@ -38,10 +38,10 @@ title: "Home"
 
 # ⭐ Featured Projects
 
+---
 
 ## 🎓 Master’s Thesis  
-
-**Thesis Topic:** Personality-Aware Non-verbal Behavior Generation in Dyadic Interactions
+### Personality-Aware Non-verbal Behavior Generation in Dyadic Interactions
 
 - Transformer + VQ-VAE generative architecture  
 - Generates **listener avatars (face + upper body)** conditioned on personality traits  
@@ -62,7 +62,6 @@ title: "Home"
 OpenCV · CUDA · Librosa · SLURM / Enroot · Multi-GPU (A100) · TensorBoard
 
 ---
-
 
 ## 🏸 Badminton-VisionAI — AI Match Analytics from Video
 
@@ -109,6 +108,7 @@ Plotly Analytics · ReportLab PDF Export
 
 # 🧠 Other Projects
 
+---
 
 ## 🩺 Medical Imaging — Computer Vision
 
