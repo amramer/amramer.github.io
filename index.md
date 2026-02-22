@@ -36,9 +36,11 @@ title: "Home"
 
 ---
 
-## 🔥 Featured Project — Master’s Thesis
+# ⭐ Featured Projects
 
-### Personality-Aware Non-verbal Behavior Generation in Dyadic Interactions
+## 🎓 Master’s Thesis  
+
+**Thesis Topic:** Personality-Aware Non-verbal Behavior Generation in Dyadic Interactions
 
 - Transformer + VQ-VAE generative architecture  
 - Generates **listener avatars (face + upper body)** conditioned on personality traits  
@@ -59,6 +61,68 @@ title: "Home"
 OpenCV · CUDA · Librosa · SLURM / Enroot · Multi-GPU (A100) · TensorBoard
 
 ---
+
+## 🏸 Badminton-VisionAI — AI Match Analytics from Video
+
+Badminton-VisionAI is an end-to-end computer vision system that turns badminton match videos into structured performance analytics for coaches and players.
+
+It tracks **both players and the shuttlecock**, analyzes shot events, projects motion onto a mini-court, and generates a downloadable **coach-style report**.
+
+*(Insert your best dashboard screenshot here)*
+
+---
+
+### Why This Project Is Interesting
+
+Badminton is one of the hardest sports for computer vision:
+
+- Shuttlecock is very small and extremely fast  
+- Players occlude each other frequently  
+- Rapid direction changes break naïve tracking  
+
+This project combines detection, tracking, geometry, and temporal analytics to produce **coach-readable insights**, not just raw detections.
+
+---
+
+### Key Features
+
+- Player tracking with stable IDs  
+- Shuttlecock trajectory tracking and speed estimation  
+- Shot event detection with temporal stabilization  
+- Mini-court projection using court geometry  
+- Interactive analytics dashboard  
+- Downloadable coach report (PDF) with movement & shot analysis  
+
+---
+
+### My Contributions
+
+- Designed the full pipeline: video → tracking → analytics → report  
+- Implemented player and shuttle tracking with consistent IDs  
+- Built shot-event detection and stabilization logic  
+- Created modular analytics tabs (Positioning / Court Control / Shot Profile)  
+- Designed coach-report export with performance insights  
+- Structured JSON outputs for reproducibility and evaluation  
+
+---
+
+### Tech Used
+
+Python · OpenCV · YOLO · Multi-Object Tracking  
+Court Homography & Projection · Shot Event Detection  
+Plotly Analytics · ReportLab PDF Export  
+
+---
+
+### Demo & Links
+
+- 🎥 Demo Video: *(add link)*  
+- 💻 Repository: *(add GitHub repo link)*  
+- 📄 Sample Coach Report: *(optional)*  
+
+---
+
+# 🧠 Other Projects
 
 ## 🩺 Medical Imaging — Computer Vision
 
@@ -110,22 +174,6 @@ End-to-end **semantic segmentation** of urban street scenes for autonomous drivi
 [Github repo.](https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow)
 
 **Tech Used:**  PyTorch · Fastai · Semantic Segmentation · Hyperparameter Optimization · Experiment Tracking
-
----
-
-## 🏸 Sports Analytics — Computer Vision
-
-###  Badminton-VisionAI
-
-Real-time AI-driven badminton analytics system with player and shuttlecock tracking, mini-court projection, shot type and power analysis, and Streamlit-dashboard.
-
-- Ongoing project focused on **real-time sports analytics**  
-- Multi-object tracking of players and shuttlecock  
-- Shot type classification using **Roboflow + Supervision**  
-- Emphasis on **temporal consistency**, tracking robustness, and visualization  
-- Interactive analytics dashboard for performance analysis  
-
-**Tech Used:** OpenCV · YOLO · Supervision · Streamlit
 
 ---
 
