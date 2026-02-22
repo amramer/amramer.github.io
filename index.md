@@ -72,7 +72,6 @@ It tracks **both players and the shuttlecock**, analyzes shot events, projects m
 
 *(Insert your best dashboard screenshot here)*
 
----
 
 ### Why This Project Is Interesting
 
