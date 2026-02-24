@@ -72,11 +72,11 @@ It tracks **both players and the shuttlecock**, analyzes shot events, projects m
 ### 🎥 System Demo
 
 <p align="center">
-  <img src="{{ '/assets/tracking.gif' | relative_url }}" width="85%" alt="Badminton Tracking Video">
+  <img src="{{ '/assets/tracking.gif' | relative_url }}" width="90%" alt="Badminton Tracking Video">
 </p>
 
 <p align="center">
-  <img src="{{ '/assets/dashboard.gif' | relative_url }}" width="85%" alt="Badminton Dashboard">
+  <img src="{{ '/assets/dashboard.gif' | relative_url }}" width="90%" alt="Badminton Dashboard">
 </p>
 
 
