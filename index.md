@@ -83,13 +83,6 @@ It tracks **both players and the shuttlecock**, analyzes shot events, projects m
 *(Upper: Player + shuttle tracking + Shot Detection + Court Mapping.  
 Lower: Final analytics Streamlit dashboard ( Players Statistics, Shot analysis, and Coach Report)*
 
-Generated coach report example:
-
-<p align="center">
-  <img src="{{ '/assets/coach-report.png' | relative_url }}" width="70%" alt="Coach Report Example">
-</p>
-
-
 ### Why This Project Is Interesting
 
 Badminton tracking is a challenging domain for computer vision:
