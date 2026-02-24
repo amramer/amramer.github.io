@@ -73,7 +73,7 @@ It tracks **both players and the shuttlecock**, analyzes shot events, projects m
 
 | Tracking Pipeline Output | Final Analytics Dashboard |
 |--------------------------|---------------------------|
-| ![Tracking Demo](assets/badminton_tracking.gif) | ![Dashboard Demo](assets/badminton_dashboard.gif) |
+| ![Tracking Demo](assets/tracking.gif) | ![Dashboard Demo](assets/dashboard.gif) |
 
 *(Left: Player + shuttle tracking with mini-court projection.  
 Right: Final analytics dashboard with positioning, shot analysis, and coach report generation.)*
