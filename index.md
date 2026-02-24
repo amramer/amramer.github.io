@@ -71,12 +71,17 @@ It tracks **both players and the shuttlecock**, analyzes shot events, projects m
 
 ### 🎥 System Demo
 
-| Tracking Pipeline Output | Final Analytics Dashboard |
-|--------------------------|---------------------------|
-| ![Tracking Demo](assets/tracking.gif) | ![Dashboard Demo](assets/dashboard.gif) |
+<p align="center">
+  <img src="{{ '/assets/tracking.gif' | relative_url }}" width="78%" alt="Badminton Tracking Video">
+</p>
 
-*(Left: Player + shuttle tracking with mini-court projection.  
-Right: Final analytics dashboard with positioning, shot analysis, and coach report generation.)*
+<p align="center">
+  <img src="{{ '/assets/dashboard.gif' | relative_url }}" width="78%" alt="Badminton Dashboard">
+</p>
+
+
+*(Upper: Player + shuttle tracking + Shot Detection + Court Mapping.  
+Lower: Final analytics Streamlit dashboard ( Players Statistics, Shot analysis, and Coach Report)*
 
 Generated coach report example:
 
