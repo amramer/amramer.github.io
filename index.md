@@ -86,7 +86,7 @@ It tracks **both players and the shuttlecock**, analyzes shot events, projects m
 
 <p align="center">
   <b>Analytics Dashboard (Streamlit)</b><br/>
-  <sub>Player statistics • Shot analysis • Coach-ready report</sub>
+  <sub>Player statistics • Heat Map • Shot analysis • Coach-ready report</sub>
 </p>
 
 <p align="center">
