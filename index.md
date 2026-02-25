@@ -79,7 +79,7 @@ It tracks **both players and the shuttlecock**, analyzes shot events, projects m
 <p align="center">
   <img src="{{ '/assets/tracking.gif' | relative_url }}"
        alt="Badminton tracking: players, shuttle, shots, and court mapping"
-       style="max-width: 92%; height: 420px; object-fit: contain; border-radius: 12px;" />
+       style="max-width: 92%; height: 640px; object-fit: contain; border-radius: 12px;" />
 </p>
 
 <br/>
