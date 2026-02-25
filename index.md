@@ -72,16 +72,28 @@ It tracks **both players and the shuttlecock**, analyzes shot events, projects m
 ### 🎥 System Demo
 
 <p align="center">
-  <img src="{{ '/assets/tracking.gif' | relative_url }}" width="85%" alt="Badminton Tracking Video">
+  <b>Tracking & On-Court Intelligence</b><br/>
+  <sub>Player and shuttle tracking • Shot detection • Court mapping</sub>
 </p>
 
 <p align="center">
-  <img src="{{ '/assets/dashboard.gif' | relative_url }}" width="85%" alt="Badminton Dashboard">
+  <img src="{{ '/assets/tracking.gif' | relative_url }}"
+       alt="Badminton tracking: players, shuttle, shots, and court mapping"
+       style="max-width: 92%; height: 420px; object-fit: contain; border-radius: 12px;" />
 </p>
 
+<br/>
 
-*(Upper: Player + shuttle tracking + Shot Detection + Court Mapping.  
-Lower: Final analytics Streamlit dashboard ( Players Statistics, Shot analysis, and Coach Report)*
+<p align="center">
+  <b>Analytics Dashboard (Streamlit)</b><br/>
+  <sub>Player statistics • Shot analysis • Coach-ready report</sub>
+</p>
+
+<p align="center">
+  <img src="{{ '/assets/dashboard.gif' | relative_url }}"
+       alt="Streamlit analytics dashboard for badminton tracking"
+       style="max-width: 92%; height: 420px; object-fit: contain; border-radius: 12px;" />
+</p>
 
 ### Why This Project Is Interesting
 
