@@ -123,9 +123,8 @@ Plotly Analytics · ReportLab PDF Export
 
 ### Demo & Links
 
-- 🎥 Demo Video: *(add link)*  
-- 💻 Repository: *(add GitHub repo link)*  
-- 📄 Sample Coach Report: *(optional)*
+- 🎥 Demo: https://badminton-visionai-web.onrender.com/  
+- 💻 Repository: https://github.com/amramer/Badminton-visionAI 
 
 ### My Contribution
 
