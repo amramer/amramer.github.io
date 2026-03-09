@@ -52,7 +52,7 @@ title: "Home"
   <img src="{{ '/assets/final-avatars.gif' | relative_url }}" width="78%" alt="Generated avatars">
 </p>
 
-**Live Demo:**  
+**Live Demo videos:**  
 [Thesis website](https://master-thesis-amr-amer.streamlit.app/)
 
 **Repository:**  
@@ -65,15 +65,17 @@ OpenCV · CUDA · Librosa · SLURM / Enroot · Multi-GPU (A100) · TensorBoard
 
 ## 🏸 Badminton-VisionAI — AI Match Analytics from Video
 
-Badminton-VisionAI is an end-to-end computer vision system that turns badminton match videos into structured performance analytics for coaches and players.
+Badminton-VisionAI is an **end-to-end computer vision pipeline** that converts badminton match videos into structured performance analytics for players and coaches.
 
-It tracks **both players and the shuttlecock**, analyzes shot events, projects motion onto a mini-court, and generates a downloadable **coach-style report**.
+The system tracks **both players and the shuttlecock**, detects shot events, projects motion onto a **mini-court representation**, and generates a downloadable **coach-style performance report**.
+
+<hr style="margin:40px 0;">
 
 ### 🎥 System Demo
 
 <p align="center">
   <b>Tracking & On-Court Intelligence</b><br/>
-  <sub>Player and shuttle tracking • Shot detection • Court mapping</sub>
+  <sub>Player tracking • Shuttle tracking • Shot detection • Court mapping</sub>
 </p>
 
 <p align="center">
@@ -86,7 +88,7 @@ It tracks **both players and the shuttlecock**, analyzes shot events, projects m
 
 <p align="center">
   <b>Analytics Dashboard (Streamlit)</b><br/>
-  <sub>Player statistics • Heat Map • Shot analysis • Coach-ready report</sub>
+  <sub>Player statistics • Heatmaps • Shot analysis • Coach-ready report</sub>
 </p>
 
 <p align="center">
@@ -95,47 +97,68 @@ It tracks **both players and the shuttlecock**, analyzes shot events, projects m
        style="max-width: 92%; object-fit: contain; border-radius: 12px;" />
 </p>
 
-### Why This Project Is Interesting
+<hr style="margin:40px 0;">
 
-Badminton tracking is a challenging domain for computer vision:
+### Technical Challenges
 
-- Shuttlecock is extremely small and fast   
-- Players frequently occlude each other   
-- Rapid direction changes break naive trackers   
+Badminton tracking presents several challenges for computer vision systems:
 
-This project combines detection, tracking, geometry, and temporal analytics to produce **coach-readable insights**, not just raw detections.
+- **Extremely small and fast shuttlecock**
+- **Frequent player occlusions**
+- **Rapid direction changes that break naive trackers**
+
+This project combines **object detection, multi-object tracking, geometric projection, and temporal analytics** to produce **coach-readable match insights**, not just raw detections.
+
+<hr style="margin:40px 0;">
 
 ### Key Features
 
-- Stable multi-object player tracking  
-- Shuttlecock trajectory tracking with speed estimation  
-- Shot type detection with temporal stabilization  
-- Mini-court projection using homography  
-- Interactive analytics dashboard for match analysis  
-- Downloadable coach report with movement & shot statistics  
+- Stable **multi-object player tracking**
+- **Shuttlecock trajectory tracking** with speed estimation
+- **Shot type classification** with temporal stabilization
+- **Mini-court projection** using homography
+- **Interactive analytics dashboard** for match analysis
+- **Automated coach report** with movement and shot statistics
 
-### Tech Used
+<hr style="margin:40px 0;">
 
-Python · OpenCV · YOLO · Multi-Object Tracking  
-Court Homography & Projection · Shot Event Detection  
-Plotly Analytics · ReportLab PDF Export  
+### Tech Stack
 
+**Computer Vision:** Python · OpenCV · YOLO · Multi-Object Tracking  
+**Geometry & Tracking:** Court Homography · Trajectory Projection  
+**Event Analysis:** Shot Detection · Temporal Label Stabilization  
+**Visualization:** Streamlit · Plotly  
+**Reporting:** ReportLab PDF Export
+
+<hr style="margin:40px 0;">
 
 ### Demo & Links
 
-- 🎥 Demo: https://badminton-visionai-web.onrender.com/  
-- 💻 Repository: https://github.com/amramer/Badminton-visionAI 
+- 🌐 **Live Demo (Streamlit App)**  
+  [Badminton-VisionAI Live Demo](https://badminton-visionai-web.onrender.com/)
+
+- 💻 **Source Code Repository**  
+  [GitHub Repository – Badminton-VisionAI](https://github.com/amramer/Badminton-visionAI)
+
+- 🎥 **Pipeline Demo – Player Tracking & Shot Analysis**  
+  [Watch the System Pipeline Video](https://www.youtube.com/watch?v=dAe9e_1AGuA)
+
+- 📊 **Analytics Dashboard Demo – Match Insights & Heatmaps**  
+  [Watch the Analytics Dashboard Video](https://www.youtube.com/watch?v=Bc2JLifgjzI)
+
+<hr style="margin:40px 0;">
 
 ### My Contribution
 
-I designed and implemented the system end-to-end:
+I designed and implemented the system **end-to-end**:
 
-- Built the tracking pipeline and court projection logic  
-- Implemented shot detection with label stabilization  
-- Developed the analytics dashboard and coach report export  
-- Structured the project as modular components for experimentation and reuse  
+- Built the **player and shuttle tracking pipeline**
+- Implemented **shot detection with temporal label stabilization**
+- Developed the **Streamlit analytics dashboard**
+- Designed the **automated coach report generation**
+- Structured the system as **modular components for experimentation and reuse**
 
-This project reflects my interest in **real-world computer vision systems** that connect model outputs to actionable insights.
+This project reflects my interest in **real-world computer vision systems that transform model outputs into actionable insights.**
 
 ---
 
