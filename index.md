@@ -46,15 +46,6 @@ title: "Home"
 
 ---
 
-## 👨‍💻 What I Do
-
-- Design and train deep learning models for real-world computer vision problems  
-- Build <strong>end-to-end ML pipelines</strong>: data → training → evaluation → deployment & visualization  
-- Optimize models through <strong>systematic experimentation</strong> and hyperparameter tuning  
-- Develop interactive demos and dashboards for analysis and presentation  
-
----
-
 # ⭐ Featured Projects
 
 ---
