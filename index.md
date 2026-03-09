@@ -79,7 +79,7 @@ The system tracks **both players and the shuttlecock**, detects shot events, pro
 </p>
 
 <p align="center">
-  <img src="{{ '/assets/tracking.gif' | relative_url }}"
+  <img src="{{ '/assets/badminton-visionAI_01.gif' | relative_url }}"
        alt="Badminton tracking: players, shuttle, shots, and court mapping"
        style="max-width: 92%; object-fit: contain; border-radius: 12px;" />
 </p>
@@ -92,7 +92,7 @@ The system tracks **both players and the shuttlecock**, detects shot events, pro
 </p>
 
 <p align="center">
-  <img src="{{ '/assets/dashboard.gif' | relative_url }}"
+  <img src="{{ '/assets/badminton-visionAI_02.gif' | relative_url }}"
        alt="Streamlit analytics dashboard for badminton tracking"
        style="max-width: 92%; object-fit: contain; border-radius: 12px;" />
 </p>
