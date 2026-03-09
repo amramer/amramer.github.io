@@ -12,7 +12,7 @@ title: "Home"
   <img src="{{ site.logo | relative_url }}" alt="Profile photo of Amr Amer" class="hero-avatar">
 
   <div class="hero-text">
-    <h3>Machine Learning Engineer specializing in Computer Vision, Video Understanding, and Multimodal AI Systems</h3>
+    <h3>Machine Learning Engineer | Computer Vision | Multimodal Generative Models</h3>
 
     <p>
       Machine Learning Engineer with a <strong>Master’s in Visual Computing from Saarland University</strong> and
