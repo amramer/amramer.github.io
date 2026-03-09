@@ -166,32 +166,6 @@ This project reflects my interest in **real-world computer vision systems that t
 
 ---
 
-## 🩺 Medical Imaging — Computer Vision
-
-### 3D Brain Tumor Segmentation (MRI)
-
-Multi-label **3D semantic segmentation** of glioma sub-regions from volumetric MRI scans.
-
-- **Dataset:** Medical Decathlon / BraTS (multi-modal MRI)  
-- **Model:** 3D SegResNet (MONAI)  
-- **Input Modalities:** FLAIR · T1 · T1Gd · T2  
-- **Target Structures:** Whole Tumor (**WT**), Tumor Core (**TC**), Enhancing Tumor (**ET**)  
-- **Training & Evaluation:** Dice Loss and Mean Dice  
-- **Results:** **Mean Dice = 0.78** on validation (WT: **0.90**, TC: **0.82**, ET: **0.59**)  
-- **Pipeline:** preprocessing → training → inference → deployment & visualization 
-
-<p align="center">
-  <img src="{{ '/assets/visualize-dec-dataset.gif' | relative_url }}" width="78%" alt="Brain tumor segmentation">
-</p>
-
-**Repository:**  
-[Github repo.](https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning)
-
-**Tech Used:**  PyTorch · MONAI · 3D SegResNet · Multi-modal MRI  
-3D Medical Image Transforms · Sliding Window Inference · Experiment Tracking (W&B)
-
----
-
 ## 🚗 Computer Vision — Autonomous Driving
 
 ### Semantic Segmentation for Autonomous Vehicles
@@ -216,6 +190,32 @@ End-to-end **semantic segmentation** of urban street scenes for autonomous drivi
 [Github repo.](https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow)
 
 **Tech Used:**  PyTorch · Fastai · Semantic Segmentation · Hyperparameter Optimization · Experiment Tracking
+
+---
+
+## 🩺 Medical Imaging — Computer Vision
+
+### 3D Brain Tumor Segmentation (MRI)
+
+Multi-label **3D semantic segmentation** of glioma sub-regions from volumetric MRI scans.
+
+- **Dataset:** Medical Decathlon / BraTS (multi-modal MRI)  
+- **Model:** 3D SegResNet (MONAI)  
+- **Input Modalities:** FLAIR · T1 · T1Gd · T2  
+- **Target Structures:** Whole Tumor (**WT**), Tumor Core (**TC**), Enhancing Tumor (**ET**)  
+- **Training & Evaluation:** Dice Loss and Mean Dice  
+- **Results:** **Mean Dice = 0.78** on validation (WT: **0.90**, TC: **0.82**, ET: **0.59**)  
+- **Pipeline:** preprocessing → training → inference → deployment & visualization 
+
+<p align="center">
+  <img src="{{ '/assets/visualize-dec-dataset.gif' | relative_url }}" width="78%" alt="Brain tumor segmentation">
+</p>
+
+**Repository:**  
+[Github repo.](https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning)
+
+**Tech Used:**  PyTorch · MONAI · 3D SegResNet · Multi-modal MRI  
+3D Medical Image Transforms · Sliding Window Inference · Experiment Tracking (W&B)
 
 ---
 
