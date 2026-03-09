@@ -3,11 +3,6 @@ layout: default
 title: "Home"
 ---
 
----
-layout: default
-title: "Home"
----
-
 <div class="hero">
   <img src="{{ site.logo | relative_url }}" alt="Profile photo of Amr Amer" class="hero-avatar">
 
