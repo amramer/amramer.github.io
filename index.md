@@ -69,7 +69,7 @@ Badminton-VisionAI is an **end-to-end computer vision pipeline** that converts b
 
 The system tracks **both players and the shuttlecock**, detects shot events, projects motion onto a **mini-court representation**, and generates a downloadable **coach-style performance report**.
 
-<hr style="margin:40px 0;">
+<p align="center">• • •</p>
 
 ### 🎥 System Demo
 
@@ -97,7 +97,7 @@ The system tracks **both players and the shuttlecock**, detects shot events, pro
        style="max-width: 92%; object-fit: contain; border-radius: 12px;" />
 </p>
 
-<hr style="margin:40px 0;">
+<p align="center">• • •</p>
 
 ### Technical Challenges
 
@@ -109,7 +109,7 @@ Badminton tracking presents several challenges for computer vision systems:
 
 This project combines **object detection, multi-object tracking, geometric projection, and temporal analytics** to produce **coach-readable match insights**, not just raw detections.
 
-<hr style="margin:40px 0;">
+<p align="center">• • •</p>
 
 ### Key Features
 
@@ -120,7 +120,7 @@ This project combines **object detection, multi-object tracking, geometric proje
 - **Interactive analytics dashboard** for match analysis
 - **Automated coach report** with movement and shot statistics
 
-<hr style="margin:40px 0;">
+<p align="center">• • •</p>
 
 ### Tech Stack
 
@@ -130,7 +130,7 @@ This project combines **object detection, multi-object tracking, geometric proje
 **Visualization:** Streamlit · Plotly  
 **Reporting:** ReportLab PDF Export
 
-<hr style="margin:40px 0;">
+<p align="center">• • •</p>
 
 ### Demo & Links
 
@@ -146,7 +146,7 @@ This project combines **object detection, multi-object tracking, geometric proje
 - 📊 **Analytics Dashboard Demo – Match Insights & Heatmaps**  
   [Watch the Analytics Dashboard Video](https://www.youtube.com/watch?v=Bc2JLifgjzI)
 
-<hr style="margin:40px 0;">
+<p align="center">• • •</p>
 
 ### My Contribution
 
