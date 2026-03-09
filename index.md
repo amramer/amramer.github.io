@@ -3,16 +3,26 @@ layout: default
 title: "Home"
 ---
 
+---
+layout: default
+title: "Home"
+---
+
 <div class="hero">
   <img src="{{ site.logo | relative_url }}" alt="Profile photo of Amr Amer" class="hero-avatar">
+
   <div class="hero-text">
-    <h3>Machine Learning Engineer | Computer Vision | Multimodal Generative Models</h3>
+    <h3>Machine Learning Engineer specializing in Computer Vision, Video Understanding, and Multimodal AI Systems</h3>
 
     <p>
-      I design and build <strong>end-to-end machine learning systems</strong> with a focus on
+      Machine Learning Engineer with a <strong>Master’s in Visual Computing from Saarland University</strong> and
+      research experience at <strong>DFKI (German Research Center for Artificial Intelligence)</strong>.
+      I design and build <strong>end-to-end machine learning systems</strong> for real-world applications in
       <strong>computer vision</strong>, <strong>medical imaging</strong>, and
       <strong>multimodal generative models</strong>.
-      <br>
+    </p>
+
+    <p>
       Currently seeking roles in <strong>Machine Learning Engineering</strong> and
       <strong>Computer Vision</strong>.
     </p>
@@ -24,6 +34,15 @@ title: "Home"
     </p>
   </div>
 </div>
+
+---
+
+## 👨‍💻 What I Do
+
+- Design and train deep learning models for real-world computer vision problems  
+- Build **end-to-end ML pipelines**: data → training → evaluation → deployment & visualization  
+- Optimize models through **systematic experimentation** and hyperparameter tuning  
+- Develop interactive demos and dashboards for analysis and presentation
 
 ---
 
