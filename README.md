@@ -21,10 +21,6 @@ The site presents selected work as a **Machine Learning Engineer** with a focus 
 
 PyTorch · MONAI · OpenCV · Transformers · Weights & Biases · CUDA
 
-## Deployment
-
-Deployed via **GitHub Pages**.
-
 ## Links
 
 - 🌐 Portfolio: https://amramer.github.io  
