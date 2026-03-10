@@ -153,16 +153,6 @@ This project combines **object detection, multi-object tracking, geometric proje
 
 <p align="center">• • •</p>
 
-### My Contribution
-
-I designed and implemented the system **end-to-end**:
-
-- Built the **player and shuttle tracking pipeline**
-- Implemented **shot detection with temporal label stabilization**
-- Developed the **Streamlit analytics dashboard**
-- Designed the **automated coach report generation**
-- Structured the system as **modular components for experimentation and reuse**
-
 This project reflects my interest in **real-world computer vision systems that transform model outputs into actionable insights.**
 
 ---
