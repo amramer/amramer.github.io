@@ -56,14 +56,14 @@ The model predicts **facial expressions, head motion, and upper-body gestures** 
   <img src="{{ '/assets/final-avatars.gif' | relative_url }}" width="78%" alt="Generated avatars">
 </p>
 
----
+<p align="center">• • •</p>
 
 ### Problem
 
 Human conversations rely heavily on **non-verbal cues** such as facial expressions, eye gaze, and body movement.  
 Most prior work does not model how these behaviors vary with **personality traits**.
 
----
+<p align="center">• • •</p>
 
 ### Approach
 
@@ -76,7 +76,7 @@ Developed a **multimodal generative architecture** combining:
 
 The model generates **personality-aware listener behavior sequences** in response to a speaker.
 
----
+<p align="center">• • •</p>
 
 ### Results
 
@@ -90,7 +90,7 @@ User study:
 - Participants correctly identified **extroverted vs introverted avatars in 86% of cases**
 - **71% preference** for the personality-aware model over the personality-agnostic baseline
 
----
+<p align="center">• • •</p>
 
 ### Tech Stack
 
@@ -100,11 +100,11 @@ SLURM · Enroot · Multi-GPU Training (A100)
 
 ### Links
 
-🌐 **Interactive Demo**  
-https://master-thesis-amr-amer.streamlit.app/
+🌐 **Website**  
+[Thesis Demo Website](https://master-thesis-amr-amer.streamlit.app/)
 
 💻 **Repository**  
-https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation
+[GitHub Repository](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation)
 
 ---
 
