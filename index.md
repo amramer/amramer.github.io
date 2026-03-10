@@ -3,350 +3,455 @@ layout: default
 title: "Home"
 ---
 
-<div class="hero">
-  <img src="{{ site.logo | relative_url }}" alt="Profile photo of Amr Amer" class="hero-avatar">
+<style>
+  /* Two-column layout */
+  body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
 
-  <div class="hero-text">
-    <h3>Machine Learning Engineer | Computer Vision | Multimodal Generative Models</h3>
+  /* TOC container */
+  .toc-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    overflow-y: auto;
+    background: #f8f9fa;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+  }
 
-    <p>
-      Machine Learning Engineer with a <strong>Master’s in Visual Computing from Saarland University</strong> and
-      research experience at <strong>DFKI (German Research Center for Artificial Intelligence)</strong>.
-      I design and build <strong>end-to-end machine learning systems</strong> for real-world applications in
-      <strong>computer vision</strong>, <strong>medical imaging</strong>, and
-      <strong>multimodal generative models</strong>.
-    </p>
+  /* TOC styling */
+  .toc {
+    list-style: none;
+    padding: 0;
+  }
 
-    <p>
-      Currently seeking roles in <strong>Machine Learning Engineering</strong> and
-      <strong>Computer Vision</strong>.
-    </p>
+  .toc ul {
+    padding-left: 0;
+  }
 
-    <p>
-      <a href="mailto:amribrahim.amer@gmail.com">Email</a> ·
-      <a href="https://www.linkedin.com/in/amr-amer-2023-cs/">LinkedIn</a> ·
-      <a href="https://github.com/amramer">GitHub</a>
-    </p>
+  .toc li {
+    margin-bottom: 8px;
+  }
+
+  .toc a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 0.9em;
+  }
+
+  .toc a:hover {
+    color: #007bff;
+  }
+
+  /* Main content area */
+  .main-content {
+    margin-left: 270px;
+    width: calc(100% - 270px);
+    padding: 20px;
+  }
+
+  /* Smooth scrolling for anchor links */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Your existing styles */
+  .hero {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .hero-avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 2rem;
+  }
+
+  .hero-text h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+
+  /* Section styling */
+  section {
+    margin-bottom: 3rem;
+  }
+
+  /* Center images and iframes */
+  p.center {
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  iframe {
+    max-width: 100%;
+  }
+</style>
+
+<div class="toc-container">
+  <div class="toc">
+    <h4>Table of Contents</h4>
+    <ul>
+      <li><a href="#what-i-do">What I Do</a></li>
+      <li><a href="#featured-projects">Featured Projects</a></li>
+      <li><a href="#masters-thesis">Master’s Thesis</a></li>
+      <li><a href="#badminton-visionai">Badminton-VisionAI</a></li>
+      <li><a href="#autonomous-driving">Autonomous Driving</a></li>
+      <li><a href="#medical-imaging">Medical Imaging</a></li>
+      <li><a href="#vision-language-models">Vision–Language Models</a></li>
+      <li><a href="#conversational-ai">Conversational AI</a></li>
+      <li><a href="#technical-profile">Technical Profile</a></li>
+      <li><a href="#beyond-work">Beyond Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </div>
 </div>
 
----
+<div class="main-content">
+  <div class="hero">
+    <img src="{{ site.logo | relative_url }}" alt="Profile photo of Amr Amer" class="hero-avatar">
+    <div class="hero-text">
+      <h3>Machine Learning Engineer | Computer Vision | Multimodal Generative Models</h3>
+      <p>
+        Machine Learning Engineer with a <strong>Master’s in Visual Computing from Saarland University</strong> and
+        research experience at <strong>DFKI (German Research Center for Artificial Intelligence)</strong>.
+        I design and build <strong>end-to-end machine learning systems</strong> for real-world applications in
+        <strong>computer vision</strong>, <strong>medical imaging</strong>, and
+        <strong>multimodal generative models</strong>.
+      </p>
+      <p>
+        Currently seeking roles in <strong>Machine Learning Engineering</strong> and
+        <strong>Computer Vision</strong>.
+      </p>
+      <p>
+        <a href="mailto:amribrahim.amer@gmail.com">Email</a> ·
+        <a href="https://www.linkedin.com/in/amr-amer-2023-cs/">LinkedIn</a> ·
+        <a href="https://github.com/amramer">GitHub</a>
+      </p>
+    </div>
+  </div>
 
-## 👨‍💻 What I Do
+  <section id="what-i-do">
+    ## 👨‍💻 What I Do
+    - Design and train deep learning models for real-world computer vision problems
+    - Build **end-to-end ML pipelines**: data → training → evaluation → deployment & visualization
+    - Optimize models through **systematic experimentation** and hyperparameter tuning
+    - Develop interactive demos and dashboards for analysis and presentation
+  </section>
 
-- Design and train deep learning models for real-world computer vision problems  
-- Build **end-to-end ML pipelines**: data → training → evaluation → deployment & visualization  
-- Optimize models through **systematic experimentation** and hyperparameter tuning  
-- Develop interactive demos and dashboards for analysis and presentation
+  <section id="featured-projects">
+    # ⭐ Featured Projects
+  </section>
 
----
+  <section id="masters-thesis">
+    ## 🎓 Master’s Thesis
+    ### Personality-Aware Non-verbal Behavior Generation in Dyadic Interactions
 
-# ⭐ Featured Projects
+    Generative model for generating **realistic listener avatars in dyadic conversations**, conditioned on **personality traits**.
 
----
+    The model predicts **facial expressions, head motion, and upper-body gestures** of a listener from the speaker’s **audio and motion signals**.
 
-## 🎓 Master’s Thesis  
-### Personality-Aware Non-verbal Behavior Generation in Dyadic Interactions
+    <p class="center">
+      <img src="{{ '/assets/final-avatars.gif' | relative_url }}" width="78%" alt="Generated avatars">
+    </p>
 
-Generative model for generating **realistic listener avatars in dyadic conversations**, conditioned on **personality traits**.
+    <p class="center">• • •</p>
 
-The model predicts **facial expressions, head motion, and upper-body gestures** of a listener from the speaker’s **audio and motion signals**.
+    ### Problem
 
-<p align="center">
-  <img src="{{ '/assets/final-avatars.gif' | relative_url }}" width="78%" alt="Generated avatars">
-</p>
+    Human conversations rely heavily on **non-verbal cues** such as facial expressions, eye gaze, and body movement.
+    Most prior work does not model how these behaviors vary with **personality traits**.
 
-<p align="center">• • •</p>
+    <p class="center">• • •</p>
 
-### Problem
+    ### Approach
 
-Human conversations rely heavily on **non-verbal cues** such as facial expressions, eye gaze, and body movement.  
-Most prior work does not model how these behaviors vary with **personality traits**.
+    Developed a **multimodal generative architecture** combining:
 
-<p align="center">• • •</p>
+    - **Transformer encoder** for temporal modeling
+    - **VQ-VAE** for quantized motion representation learning
+    - **SMPL-X body parameters** for realistic face and upper-body avatar generation
+    - Integration of **audio, facial motion, and body gesture signals**
 
-### Approach
+    The model generates **personality-aware listener behavior sequences** in response to a speaker.
 
-Developed a **multimodal generative architecture** combining:
+    <p class="center">• • •</p>
 
-- **Transformer encoder** for temporal modeling
-- **VQ-VAE** for quantized motion representation learning
-- **SMPL-X body parameters** for realistic face and upper-body avatar generation
-- Integration of **audio, facial motion, and body gesture signals**
+    ### Results
 
-The model generates **personality-aware listener behavior sequences** in response to a speaker.
+    Quantitative evaluation:
 
-<p align="center">• • •</p>
+    - **Face:** FID **6.15**, P-FID **10.31**
+    - **Upper Body:** FID **43.16**, P-FID **87.73**
 
-### Results
+    User study:
 
-Quantitative evaluation:
+    - Participants correctly identified **extroverted vs introverted avatars in 86% of cases**
+    - **71% preference** for the personality-aware model over the personality-agnostic baseline
 
-- **Face:** FID **6.15**, P-FID **10.31**
-- **Upper Body:** FID **43.16**, P-FID **87.73**
+    <p class="center">• • •</p>
 
-User study:
+    ### Tech Stack
 
-- Participants correctly identified **extroverted vs introverted avatars in 86% of cases**
-- **71% preference** for the personality-aware model over the personality-agnostic baseline
+    PyTorch · Transformers · VQ-VAE · SMPL-X (PIXIE)
+    Librosa · OpenCV · CUDA · TensorBoard
+    SLURM · Enroot · Multi-GPU Training (A100)
 
-<p align="center">• • •</p>
+    ### Links
 
-### Tech Stack
+    🌐 **Website**
+    [Thesis Demo Website](https://master-thesis-amr-amer.streamlit.app/)
 
-PyTorch · Transformers · VQ-VAE · SMPL-X (PIXIE)  
-Librosa · OpenCV · CUDA · TensorBoard  
-SLURM · Enroot · Multi-GPU Training (A100)
+    💻 **Repository**
+    [GitHub Repository](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation)
+  </section>
 
-### Links
+  <section id="badminton-visionai">
+    ## 🏸 Badminton-VisionAI — AI Match Analytics from Video
 
-🌐 **Website**  
-[Thesis Demo Website](https://master-thesis-amr-amer.streamlit.app/)
+    Badminton-VisionAI is an **end-to-end computer vision pipeline** that converts badminton match videos into structured performance analytics for players and coaches.
 
-💻 **Repository**  
-[GitHub Repository](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation)
+    The system tracks **both players and the shuttlecock**, detects shot events, projects motion onto a **mini-court representation**, and generates a downloadable **coach-style performance report**.
 
----
+    <p class="center">• • •</p>
 
-## 🏸 Badminton-VisionAI — AI Match Analytics from Video
+    ### 🎥 System Demo
 
-Badminton-VisionAI is an **end-to-end computer vision pipeline** that converts badminton match videos into structured performance analytics for players and coaches.
+    <p class="center">
+      <b>Tracking & On-Court Intelligence</b><br/>
+      <sub>Player tracking • Shuttle tracking • Shot detection • Court mapping</sub>
+    </p>
 
-The system tracks **both players and the shuttlecock**, detects shot events, projects motion onto a **mini-court representation**, and generates a downloadable **coach-style performance report**.
+    <p class="center">
+      <img src="{{ '/assets/badminton-visionAI_01.gif' | relative_url }}"
+           alt="Badminton tracking: players, shuttle, shots, and court mapping"
+           style="max-width: 92%; object-fit: contain; border-radius: 12px;" />
+    </p>
 
-<p align="center">• • •</p>
+    <br/>
 
-### 🎥 System Demo
+    <p class="center">
+      <b>Analytics Dashboard (Streamlit)</b><br/>
+      <sub>Player statistics • Heatmaps • Shot analysis • Coach-ready report</sub>
+    </p>
 
-<p align="center">
-  <b>Tracking & On-Court Intelligence</b><br/>
-  <sub>Player tracking • Shuttle tracking • Shot detection • Court mapping</sub>
-</p>
+    <p class="center">
+      <img src="{{ '/assets/badminton-visionAI_02.gif' | relative_url }}"
+           alt="Streamlit analytics dashboard for badminton tracking"
+           style="max-width: 92%; object-fit: contain; border-radius: 12px;" />
+    </p>
 
-<p align="center">
-  <img src="{{ '/assets/badminton-visionAI_01.gif' | relative_url }}"
-       alt="Badminton tracking: players, shuttle, shots, and court mapping"
-       style="max-width: 92%; object-fit: contain; border-radius: 12px;" />
-</p>
+    <p class="center">• • •</p>
 
-<br/>
+    ### Technical Challenges
 
-<p align="center">
-  <b>Analytics Dashboard (Streamlit)</b><br/>
-  <sub>Player statistics • Heatmaps • Shot analysis • Coach-ready report</sub>
-</p>
+    Badminton tracking presents several challenges for computer vision systems:
 
-<p align="center">
-  <img src="{{ '/assets/badminton-visionAI_02.gif' | relative_url }}"
-       alt="Streamlit analytics dashboard for badminton tracking"
-       style="max-width: 92%; object-fit: contain; border-radius: 12px;" />
-</p>
+    - **Extremely small and fast shuttlecock**
+    - **Frequent player occlusions**
+    - **Rapid direction changes that break naive trackers**
 
-<p align="center">• • •</p>
+    This project combines **object detection, multi-object tracking, geometric projection, and temporal analytics** to produce **coach-readable match insights**, not just raw detections.
 
-### Technical Challenges
+    <p class="center">• • •</p>
 
-Badminton tracking presents several challenges for computer vision systems:
+    ### Key Features
 
-- **Extremely small and fast shuttlecock**
-- **Frequent player occlusions**
-- **Rapid direction changes that break naive trackers**
+    - Stable **multi-object player tracking**
+    - **Shuttlecock trajectory tracking** with speed estimation
+    - **Shot type classification** with temporal stabilization
+    - **Mini-court projection** using homography
+    - **Interactive analytics dashboard** for match analysis
+    - **Automated coach report** with movement and shot statistics
 
-This project combines **object detection, multi-object tracking, geometric projection, and temporal analytics** to produce **coach-readable match insights**, not just raw detections.
+    <p class="center">• • •</p>
 
-<p align="center">• • •</p>
+    ### Tech Stack
 
-### Key Features
+    **Computer Vision:** Python · OpenCV · YOLO · Multi-Object Tracking
+    **Geometry & Tracking:** Court Homography · Trajectory Projection
+    **Event Analysis:** Shot Detection · Temporal Label Stabilization
+    **Visualization:** Streamlit · Plotly
+    **Reporting:** ReportLab PDF Export
 
-- Stable **multi-object player tracking**
-- **Shuttlecock trajectory tracking** with speed estimation
-- **Shot type classification** with temporal stabilization
-- **Mini-court projection** using homography
-- **Interactive analytics dashboard** for match analysis
-- **Automated coach report** with movement and shot statistics
+    <p class="center">• • •</p>
 
-<p align="center">• • •</p>
+    ### Demo & Links
 
-### Tech Stack
+    - 🌐 **Live Demo (Streamlit App)**
+      [Badminton-VisionAI Live Demo](https://badminton-visionai-web.onrender.com/)
 
-**Computer Vision:** Python · OpenCV · YOLO · Multi-Object Tracking  
-**Geometry & Tracking:** Court Homography · Trajectory Projection  
-**Event Analysis:** Shot Detection · Temporal Label Stabilization  
-**Visualization:** Streamlit · Plotly  
-**Reporting:** ReportLab PDF Export
+    - 💻 **Source Code Repository**
+      [GitHub Repository – Badminton-VisionAI](https://github.com/amramer/Badminton-visionAI)
 
-<p align="center">• • •</p>
+    - 🎥 **Pipeline Demo – Player Tracking & Shot Analysis**
+      [Watch the System Pipeline Video](https://www.youtube.com/watch?v=dAe9e_1AGuA)
 
-### Demo & Links
+    - 📊 **Analytics Dashboard Demo – Match Insights & Heatmaps**
+      [Watch the Analytics Dashboard Video](https://www.youtube.com/watch?v=Bc2JLifgjzI)
 
-- 🌐 **Live Demo (Streamlit App)**  
-  [Badminton-VisionAI Live Demo](https://badminton-visionai-web.onrender.com/)
+    <p class="center">• • •</p>
 
-- 💻 **Source Code Repository**  
-  [GitHub Repository – Badminton-VisionAI](https://github.com/amramer/Badminton-visionAI)
+    This project reflects my interest in **real-world computer vision systems that transform model outputs into actionable insights.**
+  </section>
 
-- 🎥 **Pipeline Demo – Player Tracking & Shot Analysis**  
-  [Watch the System Pipeline Video](https://www.youtube.com/watch?v=dAe9e_1AGuA)
+  <section id="autonomous-driving">
+    ## 🚗 Computer Vision — Autonomous Driving
 
-- 📊 **Analytics Dashboard Demo – Match Insights & Heatmaps**  
-  [Watch the Analytics Dashboard Video](https://www.youtube.com/watch?v=Bc2JLifgjzI)
+    ### Semantic Segmentation for Autonomous Vehicles
 
-<p align="center">• • •</p>
+    End-to-end **semantic segmentation** of urban street scenes for autonomous driving perception.
 
-This project reflects my interest in **real-world computer vision systems that transform model outputs into actionable insights.**
+    - **Dataset:** BDD100K
+    - **Task:** Multi-class semantic segmentation
+    - **Classes:** Road, Traffic Light, Traffic Sign, Vehicle, Person, Bicycle, Background
+    - **Evaluation:** mean Intersection over Union (**mIoU**)
+    - **Results:** Achieved **mIoU ≈ 0.45**, with strong performance on dominant classes
+      (Road: ~0.88, Vehicle: ~0.78)
+    - **Optimization:** Systematic **hyperparameter optimization** via experiment sweeps
+    - **Pipeline:** data preparation → training → evaluation → deployment & visualization
 
----
+    <p class="center">
+      <img src="{{ '/assets/final_segmentation.gif' | relative_url }}" width="78%" alt="Autonomous driving segmentation results">
+    </p>
 
-# 🧠 Other Projects
+    **Repository:**
+    [Github repo.](https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow)
 
----
+    **Tech Used:** PyTorch · Fastai · Semantic Segmentation · Hyperparameter Optimization · Experiment Tracking
+  </section>
 
-## 🚗 Computer Vision — Autonomous Driving
+  <section id="medical-imaging">
+    ## 🩺 Medical Imaging — Computer Vision
 
-### Semantic Segmentation for Autonomous Vehicles
+    ### 3D Brain Tumor Segmentation (MRI)
 
-End-to-end **semantic segmentation** of urban street scenes for autonomous driving perception.
+    Multi-label **3D semantic segmentation** of glioma sub-regions from volumetric MRI scans.
 
-- **Dataset:** BDD100K  
-- **Task:** Multi-class semantic segmentation  
-- **Classes:** Road, Traffic Light, Traffic Sign, Vehicle, Person, Bicycle, Background  
-- **Evaluation:** mean Intersection over Union (**mIoU**)  
-- **Results:** Achieved **mIoU ≈ 0.45**, with strong performance on dominant classes  
-  (Road: ~0.88, Vehicle: ~0.78)  
-- **Optimization:** Systematic **hyperparameter optimization** via experiment sweeps  
-- **Pipeline:** data preparation → training → evaluation → deployment & visualization  
+    - **Dataset:** Medical Decathlon / BraTS (multi-modal MRI)
+    - **Model:** 3D SegResNet (MONAI)
+    - **Input Modalities:** FLAIR · T1 · T1Gd · T2
+    - **Target Structures:** Whole Tumor (**WT**), Tumor Core (**TC**), Enhancing Tumor (**ET**)
+    - **Training & Evaluation:** Dice Loss and Mean Dice
+    - **Results:** **Mean Dice = 0.78** on validation (WT: **0.90**, TC: **0.82**, ET: **0.59**)
+    - **Pipeline:** preprocessing → training → inference → deployment & visualization
 
-<p align="center">
-  <img src="{{ '/assets/final_segmentation.gif' | relative_url }}" width="78%" alt="Autonomous driving segmentation results">
-</p>
+    <p class="center">
+      <img src="{{ '/assets/visualize-dec-dataset.gif' | relative_url }}" width="78%" alt="Brain tumor segmentation">
+    </p>
 
+    **Repository:**
+    [Github repo.](https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning)
 
-**Repository:**  
-[Github repo.](https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow)
+    **Tech Used:** PyTorch · MONAI · 3D SegResNet · Multi-modal MRI
+    3D Medical Image Transforms · Sliding Window Inference · Experiment Tracking (W&B)
+  </section>
 
-**Tech Used:**  PyTorch · Fastai · Semantic Segmentation · Hyperparameter Optimization · Experiment Tracking
+  <section id="vision-language-models">
+    ## 🎙️ Vision–Language Models
+    ### Realtime Vision Captioning
 
----
+    Exploratory project focused on applying **vision–language models in realtime webcam-based settings**.
 
-## 🩺 Medical Imaging — Computer Vision
+    - Realtime image captioning and visual question answering using **BLIP** via **Hugging Face Transformers**
+    - Image classification using **ResNet-50** pretrained on **ImageNet**
+    - Realtime **Gradio-based webcam application** for live image captioning and classification with adjustable inference parameters
 
-### 3D Brain Tumor Segmentation (MRI)
+    The project is implemented as a set of Jupyter notebooks, progressing from offline image understanding to **a realtime vision application**.
 
-Multi-label **3D semantic segmentation** of glioma sub-regions from volumetric MRI scans.
+    <p class="center">
+      <img src="{{ '/assets/realtime-app.gif' | relative_url }}" width="85%" alt="realtime vision capitioning">
+    </p>
 
-- **Dataset:** Medical Decathlon / BraTS (multi-modal MRI)  
-- **Model:** 3D SegResNet (MONAI)  
-- **Input Modalities:** FLAIR · T1 · T1Gd · T2  
-- **Target Structures:** Whole Tumor (**WT**), Tumor Core (**TC**), Enhancing Tumor (**ET**)  
-- **Training & Evaluation:** Dice Loss and Mean Dice  
-- **Results:** **Mean Dice = 0.78** on validation (WT: **0.90**, TC: **0.82**, ET: **0.59**)  
-- **Pipeline:** preprocessing → training → inference → deployment & visualization 
+    **Repository:**
+    [Github repo.](https://github.com/amramer/realtime-vision-captioning)
 
-<p align="center">
-  <img src="{{ '/assets/visualize-dec-dataset.gif' | relative_url }}" width="78%" alt="Brain tumor segmentation">
-</p>
+    **Tech Used:**
+    Python · PyTorch · Torchvision · Hugging Face Transformers · Gradio · PIL · NumPy
+  </section>
 
-**Repository:**  
-[Github repo.](https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning)
+  <section id="conversational-ai">
+    ## 🧠 Conversational AI — Voice Assistant (Ongoing)
+    ### AI Conversational Agent with Voice, Avatar, and Web Interface
 
-**Tech Used:**  PyTorch · MONAI · 3D SegResNet · Multi-modal MRI  
-3D Medical Image Transforms · Sliding Window Inference · Experiment Tracking (W&B)
+    Conversational AI system enabling real-time voice and text interaction through a custom web-based interface.
 
----
+    - Speech-to-text and text-to-speech for natural dialogue
+    - LLM-powered conversational reasoning
+    - Human-like conversational avatar integrated into the UI
+    - Modular frontend–backend design for extensibility
 
-## Vision–Language Models  
-### Realtime Vision Captioning
+    <p class="center">
+      <img src="{{ '/assets/AI-conversationa-assistant.png' | relative_url }}" width="82%" alt="AI Conversational Agent Web-interface">
+    </p>
 
-Exploratory project focused on applying **vision–language models in realtime webcam-based settings**.
+    **Tech Used:** Python · OpenAI GPT · Speech-to-Text · Text-to-Speech · HTML · CSS · JavaScript · Bootstrap · jQuery
 
-- Realtime image captioning and visual question answering using **BLIP** via **Hugging Face Transformers**  
-- Image classification using **ResNet-50** pretrained on **ImageNet**  
-- Realtime **Gradio-based webcam application** for live image captioning and classification with adjustable inference parameters  
+    **Status:** 🚧 Ongoing
+  </section>
 
-The project is implemented as a set of Jupyter notebooks, progressing from offline image understanding to **a realtime vision application**.
+  <section id="technical-profile">
+    ## 🧠 Technical Profile
 
-<p align="center">
-  <img src="{{ '/assets/realtime-app.gif' | relative_url }}" width="85%" alt="realtime vision capitioning">
-</p>
+    | Area | Skills & Tools |
+    |----|----|
+    | **Computer Vision Tasks** | Object Detection · Segmentation · Tracking · Video Motion Analysis · Digital Avatar Generation |
+    | **Models & Frameworks** | PyTorch · Tensorflow · OpenCV · YOLO · SAM · CNNs · Vision Transformers (ViT) · TrackNet · Supervision|
+    | **Training & Evaluation** | Transfer Learning · Fine-tuning · Loss Design · Metric Selection · Hyperparameter Optimization · Multi-GPU Training (CUDA) |
+    | **Data & Experimentation** | Dataset Preparation · Data Augmentation · Efficient Data Loading · Weights & Biases · TensorBoard · Ablation Studies |
+    | **Deployment & Inference** | Docker · GPU Inference Pipelines · Batch & Real-time Inference · AWS (EC2 GPU) · Streamlit (Demos) |
+    | **Compute & Infrastructure** | SLURM (HPC) · GPU Job Scheduling · Multi-node Training · Large-scale GPU Experiments |
+    | **Software Engineering Foundations** | Python · C++. Object-Oriented Design · Version Control (Git) · Debugging · Logging · Unit Testing |
+  </section>
 
-**Repository:**  
-[Github repo.](https://github.com/amramer/realtime-vision-captioning)
+  <section id="beyond-work">
+    ## 🎥 Beyond Work
 
-**Tech Used:**  
-Python · PyTorch · Torchvision · Hugging Face Transformers · Gradio · PIL · NumPy
+    Outside of my professional work, I enjoy aerial photography and videography using drones.
+    This section highlights selected visual projects created in my free time.
 
----
+    <p class="center">
+      <iframe width="45%"
+        src="https://player.vimeo.com/video/1152190588"
+        frameborder="0" allowfullscreen></iframe>
 
-## 🎙️ Conversational AI — Voice Assistant (Ongoing)
-### AI Conversational Agent with Voice, Avatar, and Web Interface
+      <iframe width="45%"
+        src="https://player.vimeo.com/video/1152190476"
+        frameborder="0" allowfullscreen></iframe>
 
-Conversational AI system enabling real-time voice and text interaction through a custom web-based interface.
+      <iframe width="45%"
+        src="https://player.vimeo.com/video/1152190673"
+        frameborder="0" allowfullscreen></iframe>
+    </p>
 
-- Speech-to-text and text-to-speech for natural dialogue
+    <p class="center">
+      <a href="https://vimeo.com/amramer252805454" target="_blank">
+        View more Drone videos on Vimeo →
+      </a>
+    </p>
+  </section>
 
-- LLM-powered conversational reasoning
+  <section id="contact">
+    ## 📬 Contact
 
-- Human-like conversational avatar integrated into the UI
+    If you're hiring or would like to collaborate:
 
-- Modular frontend–backend design for extensibility
-
-<p align="center">
-  <img src="{{ '/assets/AI-conversationa-assistant.png' | relative_url }}" width="82%" alt="AI Conversational Agent Web-interface">
-</p>
-
-**Tech Used:** Python · OpenAI GPT · Speech-to-Text · Text-to-Speech · HTML · CSS · JavaScript · Bootstrap · jQuery
-
-**Status:** 🚧 Ongoing
-
-
----
-
-## 🧠 Technical Profile
-
-| Area | Skills & Tools |
-|----|----|
-| **Computer Vision Tasks** | Object Detection · Segmentation · Tracking · Video Motion Analysis · Digital Avatar Generation |
-| **Models & Frameworks** | PyTorch · Tensorflow · OpenCV · YOLO · SAM · CNNs · Vision Transformers (ViT) · TrackNet · Supervision|
-| **Training & Evaluation** | Transfer Learning · Fine-tuning · Loss Design · Metric Selection · Hyperparameter Optimization · Multi-GPU Training (CUDA) |
-| **Data & Experimentation** | Dataset Preparation · Data Augmentation · Efficient Data Loading · Weights & Biases · TensorBoard · Ablation Studies |
-| **Deployment & Inference** | Docker · GPU Inference Pipelines · Batch & Real-time Inference · AWS (EC2 GPU) · Streamlit (Demos) |
-| **Compute & Infrastructure** | SLURM (HPC) · GPU Job Scheduling · Multi-node Training · Large-scale GPU Experiments |
-| **Software Engineering Foundations** | Python · C++. Object-Oriented Design · Version Control (Git) · Debugging · Logging · Unit Testing |
-
-
-
-
----
-
-## 🎥 Beyond Work
-
-Outside of my professional work, I enjoy aerial photography and videography using drones.
-This section highlights selected visual projects created in my free time.
-
-<p align="center">
-  <iframe width="45%"
-    src="https://player.vimeo.com/video/1152190588"
-    frameborder="0" allowfullscreen></iframe>
-
-  <iframe width="45%"
-    src="https://player.vimeo.com/video/1152190476"
-    frameborder="0" allowfullscreen></iframe>
-
-  <iframe width="45%"
-    src="https://player.vimeo.com/video/1152190673"
-    frameborder="0" allowfullscreen></iframe>
-</p>
-
-<p align="center">
-  <a href="https://vimeo.com/amramer252805454" target="_blank">
-    View more Drone videos on Vimeo →
-  </a>
-</p>
-
-
-## 📬 Contact
-
-If you're hiring or would like to collaborate:
-
-**Email:** amribrahim.amer@gmail.com  
-**LinkedIn:** https://www.linkedin.com/in/amr-amer-2023-cs/
+    **Email:** amribrahim.amer@gmail.com
+    **LinkedIn:** [https://www.linkedin.com/in/amr-amer-2023-cs/](https://www.linkedin.com/in/amr-amer-2023-cs/)
+  </section>
+</div>
