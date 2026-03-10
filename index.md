@@ -48,23 +48,63 @@ title: "Home"
 ## 🎓 Master’s Thesis  
 ### Personality-Aware Non-verbal Behavior Generation in Dyadic Interactions
 
-- Transformer + VQ-VAE generative architecture  
-- Generates **listener avatars (face + upper body)** conditioned on personality traits  
-- Evaluated using **Fréchet Distance (FD)**, **Paired FD (P-FD)**, and user studies  
-- User study achieved **86% personality trait recognition accuracy**
+Generative model for generating **realistic listener avatars in dyadic conversations**, conditioned on **personality traits**.
+
+The model predicts **facial expressions, head motion, and upper-body gestures** of a listener from the speaker’s **audio and motion signals**.
 
 <p align="center">
   <img src="{{ '/assets/final-avatars.gif' | relative_url }}" width="78%" alt="Generated avatars">
 </p>
 
-**Live Demo videos:**  
-[Thesis website](https://master-thesis-amr-amer.streamlit.app/)
+---
 
-**Repository:**  
-[Github repo.](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation)
+### Problem
 
-**Tech Used:**  Python · PyTorch · Transformers · VQ-VAE · SMPL-X (PIXIE)  
-OpenCV · CUDA · Librosa · SLURM / Enroot · Multi-GPU (A100) · TensorBoard
+Human conversations rely heavily on **non-verbal cues** such as facial expressions, eye gaze, and body movement.  
+Most prior work does not model how these behaviors vary with **personality traits**.
+
+---
+
+### Approach
+
+Developed a **multimodal generative architecture** combining:
+
+- **Transformer encoder** for temporal modeling
+- **VQ-VAE** for quantized motion representation learning
+- **SMPL-X body parameters** for realistic face and upper-body avatar generation
+- Integration of **audio, facial motion, and body gesture signals**
+
+The model generates **personality-aware listener behavior sequences** in response to a speaker.
+
+---
+
+### Results
+
+Quantitative evaluation:
+
+- **Face:** FID **6.15**, P-FID **10.31**
+- **Upper Body:** FID **43.16**, P-FID **87.73**
+
+User study:
+
+- Participants correctly identified **extroverted vs introverted avatars in 86% of cases**
+- **71% preference** for the personality-aware model over the personality-agnostic baseline
+
+---
+
+### Tech Stack
+
+PyTorch · Transformers · VQ-VAE · SMPL-X (PIXIE)  
+Librosa · OpenCV · CUDA · TensorBoard  
+SLURM · Enroot · Multi-GPU Training (A100)
+
+### Links
+
+🌐 **Interactive Demo**  
+https://master-thesis-amr-amer.streamlit.app/
+
+💻 **Repository**  
+https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation
 
 ---
 
