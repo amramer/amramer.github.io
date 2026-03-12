@@ -48,7 +48,7 @@ title: "Home"
 ## 🎓 Master’s Thesis  
 ### Personality-Aware Non-verbal Behavior Generation in Dyadic Interactions
 
-Generative model for generating **realistic listener avatars in dyadic conversations**, conditioned on **personality traits**.
+Multimodal generative model for generating **realistic listener avatars in dyadic conversations**, conditioned on **personality traits**.
 
 The model predicts **facial expressions, head motion, and upper-body gestures** of a listener from the speaker’s **audio and motion signals**.
 
