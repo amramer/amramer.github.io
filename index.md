@@ -101,10 +101,13 @@ SLURM · Enroot · Multi-GPU Training (A100)
 ### Links
 
 🌐 **Website**  
-[Thesis Demo Website](https://master-thesis-amr-amer.streamlit.app/)
+[Thesis Website](https://thesis-website-3sxt.onrender.com/)
 
 💻 **Repository**  
 [GitHub Repository](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation)
+
+- 📄 **Thesis Document**  
+  [Read the Full Master’s Thesis](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation/blob/main/docs/Thesis_final_doc.pdf)
 
 ---
 
