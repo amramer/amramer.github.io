@@ -106,8 +106,8 @@ SLURM · Enroot · Multi-GPU Training (A100)
 💻 **Repository**  
 [GitHub Repository](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation)
 
-- 📄 **Thesis Document**  
-  [Read the Full Master’s Thesis](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation/blob/main/docs/Thesis_final_doc.pdf)
+📄 **Thesis Document**  
+[Read the Full Master’s Thesis](https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation/blob/main/docs/Thesis_final_doc.pdf)
 
 ---
 
