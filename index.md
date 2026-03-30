@@ -21,12 +21,35 @@ title: "Home"
       Currently seeking roles in <strong>Machine Learning Engineering</strong> and
       <strong>Computer Vision</strong>.
     </p>
-
     <p>
       <a href="mailto:amribrahim.amer@gmail.com">Email</a> ·
       <a href="https://www.linkedin.com/in/amr-amer-2023-cs/">LinkedIn</a> ·
-      <a href="https://github.com/amramer">GitHub</a>
+      <a href="https://github.com/amramer">GitHub</a> ·
+      <a href="/assets/Amr_Amer_CV.pdf" download>CV ↓</a>
+      &nbsp;|&nbsp;
+      <span style="
+        display: inline-flex; align-items: center; gap: 6px;
+        background: #E1F5EE; color: #0F6E56;
+        border: 1px solid #5DCAA5; border-radius: 999px;
+        padding: 3px 11px; font-size: 12px; font-weight: 500;
+        vertical-align: middle;
+      ">
+        <span style="
+          width: 7px; height: 7px; border-radius: 50%;
+          background: #0F6E56; display: inline-block;
+          animation: otw-pulse 2s infinite;
+        "></span>
+        Open to work
+      </span>
     </p>
+    
+    <style>
+    @keyframes otw-pulse {
+      0%   { box-shadow: 0 0 0 0 rgba(15,110,86,0.45); }
+      70%  { box-shadow: 0 0 0 7px rgba(15,110,86,0); }
+      100% { box-shadow: 0 0 0 0 rgba(15,110,86,0); }
+    }
+    </style>
   </div>
 </div>
 
