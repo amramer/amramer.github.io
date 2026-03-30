@@ -25,18 +25,28 @@ title: "Home"
       <a href="mailto:amribrahim.amer@gmail.com">Email</a> ·
       <a href="https://www.linkedin.com/in/amr-amer-2023-cs/">LinkedIn</a> ·
       <a href="https://github.com/amramer">GitHub</a> ·
-      <a href="/assets/Amr_Amer_CV.pdf" download>CV ↓</a>
+      <a href="/assets/Amr_Amer_CV.pdf" download>Download CV</a>
       &nbsp;|&nbsp;
+    
       <span style="
-        display: inline-flex; align-items: center; gap: 6px;
-        background: #E1F5EE; color: #0F6E56;
-        border: 1px solid #5DCAA5; border-radius: 999px;
-        padding: 3px 11px; font-size: 12px; font-weight: 500;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: transparent;
+        color: #22c55e;
+        border: 1px solid #22c55e;
+        border-radius: 999px;
+        padding: 3px 11px;
+        font-size: 12px;
+        font-weight: 500;
         vertical-align: middle;
       ">
         <span style="
-          width: 7px; height: 7px; border-radius: 50%;
-          background: #0F6E56; display: inline-block;
+          width: 7px;
+          height: 7px;
+          border-radius: 50%;
+          background: #22c55e;
+          display: inline-block;
           animation: otw-pulse 2s infinite;
         "></span>
         Open to work
@@ -45,9 +55,9 @@ title: "Home"
     
     <style>
     @keyframes otw-pulse {
-      0%   { box-shadow: 0 0 0 0 rgba(15,110,86,0.45); }
-      70%  { box-shadow: 0 0 0 7px rgba(15,110,86,0); }
-      100% { box-shadow: 0 0 0 0 rgba(15,110,86,0); }
+      0%   { box-shadow: 0 0 0 0 rgba(34,197,94,0.45); }
+      70%  { box-shadow: 0 0 0 7px rgba(34,197,94,0); }
+      100% { box-shadow: 0 0 0 0 rgba(34,197,94,0); }
     }
     </style>
   </div>
