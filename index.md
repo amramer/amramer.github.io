@@ -25,7 +25,7 @@ title: "Home"
       <a href="mailto:amribrahim.amer@gmail.com">Email</a> ·
       <a href="https://www.linkedin.com/in/amr-amer-2023-cs/">LinkedIn</a> ·
       <a href="https://github.com/amramer">GitHub</a> ·
-      <a href="/assets/cv-amr-amer.pdf" download>Download CV</a>
+      <a href="/assets/Resume_Amr_Amer.pdf" download>Download CV</a>
       &nbsp;|&nbsp;
     
       <span style="
