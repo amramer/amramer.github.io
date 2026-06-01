@@ -8,7 +8,7 @@ title: "Home"
   <img src="{{ site.logo | relative_url }}" alt="Profile photo of Amr Amer" class="hero-avatar">
 
   <div class="hero-text">
-    <h3>Machine Learning Engineer | Computer Vision | Multimodal Generative Models</h3>
+    <h3>Machine Learning Engineer | Computer Vision | Deep Learning</h3>
 
     <p>
       Machine Learning Engineer with an M.Sc. in Visual Computing from Saarland University and experience at DFKI (German Research Center for Artificial Intelligence). 
