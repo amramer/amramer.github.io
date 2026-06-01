@@ -11,16 +11,14 @@ title: "Home"
     <h3>Machine Learning Engineer | Computer Vision | Multimodal Generative Models</h3>
 
     <p>
-      Machine Learning Engineer with a <strong>Master's in Visual Computing from Saarland University</strong> and
-      research experience at <strong>DFKI (German Research Center for Artificial Intelligence)</strong>.
-      I design and build <strong>end-to-end machine learning systems</strong> for real-world applications in
-      <strong>computer vision</strong>, <strong>medical imaging</strong>, and
-      <strong>multimodal generative models</strong>.
+      Machine Learning Engineer with an M.Sc. in Visual Computing from Saarland University and experience at DFKI (German Research Center for Artificial Intelligence). 
+      I build production-ready ML systems end-to-end, from distributed GPU training and
+      multimodal generative models to high-performance C++ inference and deployment, 
+      with a focus on computer vision.
     </p>
 
     <p>
-      Currently seeking roles in <strong>Machine Learning Engineering</strong> and
-      <strong>Computer Vision</strong>.
+      Currently seeking roles in Machine Learning Engineering and Computer Vision.
     </p>
 
     <p>
