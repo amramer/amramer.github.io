@@ -16,29 +16,7 @@ Machine Learning Engineer with an M.Sc. in Visual Computing from Saarland Univer
 | **Realtime Vision Captioning** | Webcam captioning and classification with BLIP and ResNet-50 | [Repo](https://github.com/amramer/realtime-vision-captioning) |
 | **AI Conversational Agent** (ongoing) | Voice and text assistant with an avatar and web interface | |
 
-## How the site is built
 
-A single static page with no framework and no build step, served by GitHub Pages (`.nojekyll` turns off Jekyll).
-
-```
-index.html            All page content
-assets/css/style.css  Styles, light and dark theme
-assets/js/main.js     Theme switch, videos that play only while visible
-assets/media/         Project videos (MP4, converted from GIFs)
-assets/img/           Posters, screenshots, profile photo (WebP)
-assets/fonts/         Self-hosted IBM Plex fonts
-assets/Resume_Amr_Amer.pdf
-```
-
-To add a project, copy one `<article class="project">` (featured) or `<article class="card">` (other projects) block in `index.html` and edit its text. To add a video, convert the GIF to a small MP4 plus a poster frame:
-
-```bash
-ffmpeg -i demo.gif -movflags +faststart -pix_fmt yuv420p -an \
-  -vf "scale='min(1280,iw)':-2,scale=trunc(iw/2)*2:trunc(ih/2)*2" -crf 24 assets/media/demo.mp4
-ffmpeg -ss 2 -i demo.gif -frames:v 1 assets/img/demo-poster.webp
-```
-
-Preview locally with `python3 -m http.server` and open http://localhost:8000.
 
 ## Contact
 
