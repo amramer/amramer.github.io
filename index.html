@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amr Amer | Machine Learning Engineer, Computer Vision</title>
+<meta name="description" content="Amr Amer, Machine Learning Engineer with an M.Sc. in Visual Computing from Saarland University and experience at DFKI. Computer vision, multimodal generative models, data pipelines and MLOps.">
+<meta name="author" content="Amr Amer">
+<meta property="og:title" content="Amr Amer | Machine Learning Engineer">
+<meta property="og:description" content="Computer vision, multimodal generative models, data pipelines and MLOps. Selected projects and CV.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://amramer.github.io/">
+<meta property="og:image" content="https://amramer.github.io/assets/img/badminton-tracking-poster.webp">
+<meta name="theme-color" content="#f4f6f8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1317" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b6e69'/%3E%3Cpath d='M8 13V8h5M19 8h5v5M24 19v5h-5M13 24H8v-5' fill='none' stroke='%23fff' stroke-width='2.4'/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/ibm-plex-sans-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+  try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="nav-name" href="#top">Amr Amer</a>
+    <nav aria-label="Sections">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#beyond">Beyond work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-btn" type="button" aria-label="Switch between light and dark theme">
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+      </button>
+      <a class="btn btn-small" href="assets/Resume_Amr_Amer.pdf" download>Download CV</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero wrap" id="top">
+  <div class="hero-text">
+    <h1>Amr Amer</h1>
+    <p class="role">Machine Learning Engineer | Computer Vision | Deep Learning</p>
+    <p>Machine Learning Engineer with an M.Sc. in Visual Computing from Saarland University and experience at DFKI (German Research Center for Artificial Intelligence). I build production-ready ML systems end-to-end, from versioned, quality-checked data pipelines and distributed GPU training to multimodal generative models, high-performance C++ inference and deployment, with a focus on computer vision.</p>
+    <p>On the data and MLOps side, I build reproducible pipelines with DVC, Airflow, Spark and MLflow, add automated data-quality gates, and ship models with Docker, Kubernetes and CI/CD on GitHub Actions.</p>
+    <p class="seeking">Currently seeking roles in Machine Learning Engineering and Computer Vision.</p>
+
+    <div class="hero-actions">
+      <a class="btn" href="mailto:amribrahim.amer@gmail.com">Email</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/amr-amer-2023-cs/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn-ghost" href="https://github.com/amramer" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn-ghost" href="assets/Resume_Amr_Amer.pdf" download>Download CV</a>
+    </div>
+    <div class="hero-meta">
+      <span class="otw"><span class="otw-dot" aria-hidden="true"></span>Open to work</span>
+      <a class="phone" href="tel:+491626667294">+49 162 6667294</a>
+      <a class="wa" href="https://wa.me/491626667294" target="_blank" rel="noopener" aria-label="Message on WhatsApp">WhatsApp</a>
+    </div>
+  </div>
+
+  <figure class="detect" aria-label="Portrait of Amr Amer">
+    <span class="bb-tag" aria-hidden="true">ml_engineer</span>
+    <picture>
+      <source srcset="assets/img/profile.webp" type="image/webp">
+      <img src="assets/img/profile.jpg" alt="Portrait of Amr Amer" width="480" height="743">
+    </picture>
+    <span class="corner tl" aria-hidden="true"></span><span class="corner tr" aria-hidden="true"></span>
+    <span class="corner bl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
+  </figure>
+</section>
+
+<!-- ============ WHAT I DO ============ -->
+<section class="wrap what" aria-labelledby="h-what">
+  <h2 id="h-what">What I do</h2>
+  <ul class="what-list">
+    <li>Design and train deep learning models for real-world computer vision problems</li>
+    <li>Build <strong>end-to-end ML pipelines</strong>: data → training → evaluation → deployment and visualization</li>
+    <li>Build <strong>reproducible data pipelines</strong> with dataset versioning, data-quality gates and CI/CD</li>
+    <li>Optimize models through <strong>systematic experimentation</strong> and hyperparameter tuning</li>
+    <li>Develop interactive demos and dashboards for analysis and presentation</li>
+  </ul>
+</section>
+
+<!-- ============ FEATURED ============ -->
+<section class="wrap" id="projects" aria-labelledby="h-featured">
+  <h2 id="h-featured">Featured projects</h2>
+
+  <!-- Thesis -->
+  <article class="project" aria-labelledby="p-thesis">
+    <header class="project-head">
+      <p class="project-kind">Master's thesis</p>
+      <h3 id="p-thesis">Personality-Aware Non-verbal Behavior Generation in Dyadic Interactions</h3>
+      <p class="project-lede">Multimodal generative model for generating <strong>realistic listener avatars in dyadic conversations</strong>, conditioned on <strong>personality traits</strong>. The model predicts <strong>facial expressions, head motion and upper-body gestures</strong> of a listener from the speaker's <strong>audio and motion signals</strong>.</p>
+    </header>
+
+    <figure class="media media-dark media-native">
+      <video class="autoplay" muted loop playsinline preload="none" poster="assets/img/thesis-avatars-poster.webp" width="700" height="240" aria-label="Generated listener avatars with extrovert, neutral and introvert personalities">
+        <source src="assets/media/thesis-avatars.mp4" type="video/mp4">
+      </video>
+    </figure>
+
+    <div class="project-body">
+      <div>
+        <h4>Problem</h4>
+        <p>Human conversations rely heavily on <strong>non-verbal cues</strong> such as facial expressions, eye gaze and body movement. Most prior work does not model how these behaviors vary with <strong>personality traits</strong>.</p>
+        <h4>Approach</h4>
+        <p>Developed a <strong>multimodal generative architecture</strong> combining:</p>
+        <ul>
+          <li><strong>Transformer encoder</strong> for temporal modeling</li>
+          <li><strong>VQ-VAE</strong> for quantized motion representation learning</li>
+          <li><strong>SMPL-X body parameters</strong> for realistic face and upper-body avatar generation</li>
+          <li>Integration of <strong>audio, facial motion and body gesture signals</strong></li>
+        </ul>
+        <p>The model generates <strong>personality-aware listener behavior sequences</strong> in response to a speaker.</p>
+      </div>
+      <div>
+        <h4>Results</h4>
+        <dl class="metrics">
+          <div><dt>Face FID</dt><dd>6.15</dd></div>
+          <div><dt>Face P-FID</dt><dd>10.31</dd></div>
+          <div><dt>Upper-body FID</dt><dd>43.16</dd></div>
+          <div><dt>Upper-body P-FID</dt><dd>87.73</dd></div>
+        </dl>
+        <p class="small">User study: participants correctly identified <strong>extroverted vs. introverted avatars in 86% of cases</strong>, and <strong>71% preferred</strong> the personality-aware model over the personality-agnostic baseline.</p>
+        <h4>Tech stack</h4>
+        <ul class="chips">
+          <li>PyTorch</li><li>Transformers</li><li>VQ-VAE</li><li>SMPL-X (PIXIE)</li><li>Librosa</li><li>OpenCV</li><li>CUDA</li><li>TensorBoard</li><li>SLURM</li><li>Enroot</li><li>Multi-GPU training (A100)</li>
+        </ul>
+      </div>
+    </div>
+
+    <ul class="links">
+      <li><a class="btn" href="https://amramer.github.io/Personality-Aware-Non-verbal-Behavior-Generation/" target="_blank" rel="noopener">Thesis website</a></li>
+      <li><a class="btn btn-ghost" href="https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation" target="_blank" rel="noopener">GitHub repository</a></li>
+      <li><a class="btn btn-ghost" href="https://github.com/amramer/Personality-Aware-Non-verbal-Behavior-Generation/blob/main/docs/Thesis_final_doc.pdf" target="_blank" rel="noopener">Read the full thesis (PDF)</a></li>
+    </ul>
+  </article>
+
+  <!-- Badminton -->
+  <article class="project" aria-labelledby="p-badminton">
+    <header class="project-head">
+      <p class="project-kind">Computer vision system</p>
+      <h3 id="p-badminton">Badminton-VisionAI: AI Match Analytics from Video</h3>
+      <p class="project-lede">Badminton-VisionAI is an <strong>end-to-end computer vision pipeline</strong> that converts badminton match videos into structured performance analytics for players and coaches. The system tracks <strong>both players and the shuttlecock</strong>, detects shot events, projects motion onto a <strong>mini-court representation</strong> and generates a downloadable <strong>coach-style performance report</strong>.</p>
+    </header>
+
+    <div class="media-pair">
+      <figure class="media media-dark">
+        <video class="autoplay" muted loop playsinline preload="none" poster="assets/img/badminton-tracking-poster.webp" width="1280" height="542" aria-label="Badminton tracking: players, shuttle, shots and court mapping">
+          <source src="assets/media/badminton-tracking.mp4" type="video/mp4">
+        </video>
+        <figcaption><strong>Tracking and on-court intelligence.</strong> Player tracking, shuttle tracking, shot detection, court mapping.</figcaption>
+      </figure>
+      <figure class="media media-dark">
+        <video class="autoplay" muted loop playsinline preload="none" poster="assets/img/badminton-dashboard-poster.webp" width="1280" height="542" aria-label="Streamlit analytics dashboard for badminton tracking">
+          <source src="assets/media/badminton-dashboard.mp4" type="video/mp4">
+        </video>
+        <figcaption><strong>Analytics dashboard (Streamlit).</strong> Player statistics, heatmaps, shot analysis, coach-ready report.</figcaption>
+      </figure>
+    </div>
+
+    <div class="project-body">
+      <div>
+        <h4>Technical challenges</h4>
+        <p>Badminton tracking presents several challenges for computer vision systems:</p>
+        <ul>
+          <li><strong>Extremely small and fast shuttlecock</strong></li>
+          <li><strong>Frequent player occlusions</strong></li>
+          <li><strong>Rapid direction changes that break naive trackers</strong></li>
+        </ul>
+        <p>This project combines <strong>object detection, multi-object tracking, geometric projection and temporal analytics</strong> to produce <strong>coach-readable match insights</strong>, not just raw detections.</p>
+      </div>
+      <div>
+        <h4>Key features</h4>
+        <ul>
+          <li>Stable <strong>multi-object player tracking</strong></li>
+          <li><strong>Shuttlecock trajectory tracking</strong> with speed estimation</li>
+          <li><strong>Shot type classification</strong> with temporal stabilization</li>
+          <li><strong>Mini-court projection</strong> using homography</li>
+          <li><strong>Interactive analytics dashboard</strong> for match analysis</li>
+          <li><strong>Automated coach report</strong> with movement and shot statistics</li>
+        </ul>
+        <h4>Tech stack</h4>
+        <ul class="chips">
+          <li>Python</li><li>OpenCV</li><li>YOLO</li><li>Multi-object tracking</li><li>Court homography</li><li>Trajectory projection</li><li>Shot detection</li><li>Temporal label stabilization</li><li>Streamlit</li><li>Plotly</li><li>ReportLab PDF export</li>
+        </ul>
+      </div>
+    </div>
+
+    <ul class="links">
+      <li><a class="btn" href="https://www.youtube.com/watch?v=dAe9e_1AGuA" target="_blank" rel="noopener">Pipeline demo video: player tracking and shot analysis</a></li>
+      <li><a class="btn" href="https://www.youtube.com/watch?v=Bc2JLifgjzI" target="_blank" rel="noopener">Dashboard demo video: match insights and heatmaps</a></li>
+      <li><a class="btn btn-ghost" href="https://github.com/amramer/Badminton-visionAI" target="_blank" rel="noopener">GitHub repository</a></li>
+      <li class="live">
+        <a class="btn btn-ghost" href="https://badminton-visionai-web.onrender.com/" target="_blank" rel="noopener">Live demo (Streamlit app)</a>
+        <span class="note">Runs on a free server that sleeps when idle, so it can take about a minute to wake up.</span>
+      </li>
+    </ul>
+    <p class="closing">This project reflects my interest in <strong>real-world computer vision systems that transform model outputs into actionable insights.</strong></p>
+  </article>
+
+  <!-- AV sensor DataOps -->
+  <article class="project" aria-labelledby="p-av">
+    <header class="project-head">
+      <p class="project-kind">Data pipelines and MLOps</p>
+      <h3 id="p-av">AV Sensor DataOps: From Raw Sensor Logs to a Monitored 3D Detection API</h3>
+      <p class="project-lede">Automated pipeline that turns raw <strong>autonomous-vehicle sensor logs</strong> (nuScenes camera and LiDAR) into <strong>versioned, quality-checked, ML-ready datasets</strong>, then trains a camera detector, <strong>fuses it with LiDAR for 3D object detection</strong>, evaluates it nuScenes-style and serves it as a <strong>monitored API</strong>.</p>
+    </header>
+
+    <figure class="media pipeline" aria-label="Pipeline: raw sensor logs to bronze, silver, quality gate, gold, ML-ready, train, evaluate, promotion gate, ONNX and API">
+      <ol class="flow">
+        <li><span>Raw logs</span><small>DVC</small></li>
+        <li><span>Bronze</span><small>Parquet</small></li>
+        <li><span>Silver</span><small>synced, features</small></li>
+        <li class="gate"><span>Quality gate</span><small>schema, sensor, label checks</small></li>
+        <li><span>Gold</span><small>tags, splits, labels</small></li>
+        <li><span>Train</span><small>YOLOv8, MLflow</small></li>
+        <li><span>Evaluate</span><small>per-scenario slices</small></li>
+        <li class="gate"><span>Promotion gate</span><small>regression checks</small></li>
+        <li><span>Serve</span><small>ONNX, FastAPI</small></li>
+      </ol>
+      <figcaption>Every stage is a DVC stage with hashed inputs and outputs. Airflow triggers training when a new dataset version lands, and Prometheus and Grafana monitor data and model health.</figcaption>
+    </figure>
+
+    <div class="project-body">
+      <div>
+        <h4>What it does</h4>
+        <ul>
+          <li><strong>Versioning and lineage:</strong> every dataset and model is reproducible from a Git tag with DVC; MLflow runs carry the commit and dataset hash</li>
+          <li><strong>Data-quality gate:</strong> Pandera schemas plus sensor checks (sync offsets, dropped frames, corrupt files, degraded LiDAR, suspect calibration) and label checks; errors fail the pipeline</li>
+          <li><strong>Orchestration:</strong> Airflow with data-aware scheduling, so a new dataset version triggers training, evaluation and promotion</li>
+          <li><strong>Camera + LiDAR fusion:</strong> 2D detections lifted to 3D with LiDAR frustums, evaluated with nuScenes-style mAP, ATE, ASE, AOE and NDS-lite</li>
+          <li><strong>Serving and monitoring:</strong> ONNX Runtime and FastAPI with Prometheus metrics, Grafana dashboards and a latency benchmark for CPU, GPU and Jetson targets</li>
+        </ul>
+      </div>
+      <div>
+        <h4>CI/CD</h4>
+        <p>GitHub Actions runs lint and tests, the full DVC pipeline on synthetic data, the promotion gate, a reproducibility check and an API smoke test on every push, then publishes the pipeline image. A scheduled workflow re-runs the data stages and opens a pull request, so dataset releases are reviewed like code.</p>
+        <h4>Tech stack</h4>
+        <ul class="chips">
+          <li>DVC</li><li>Airflow</li><li>PySpark</li><li>pandas / PyArrow</li><li>Pandera</li><li>MLflow</li><li>YOLOv8</li><li>ONNX Runtime</li><li>FastAPI</li><li>Prometheus</li><li>Grafana</li><li>Docker</li><li>Kubernetes</li><li>GitHub Actions</li>
+        </ul>
+      </div>
+    </div>
+
+    <ul class="links">
+      <li><a class="btn btn-ghost" href="https://github.com/amramer/av-sensor-dataops" target="_blank" rel="noopener">GitHub repository</a></li>
+    </ul>
+  </article>
+</section>
+
+<!-- ============ OTHER PROJECTS ============ -->
+<section class="wrap" aria-labelledby="h-other">
+  <h2 id="h-other">Other projects</h2>
+  <div class="cards">
+
+    <article class="card" aria-labelledby="c-driving">
+      <figure class="media media-dark">
+        <video class="autoplay" muted loop playsinline preload="none" poster="assets/img/driving-segmentation-poster.webp" width="640" height="360" aria-label="Autonomous driving segmentation results">
+          <source src="assets/media/driving-segmentation.mp4" type="video/mp4">
+        </video>
+      </figure>
+      <p class="project-kind">Computer vision, autonomous driving</p>
+      <h3 id="c-driving">Semantic Segmentation for Autonomous Vehicles</h3>
+      <p>End-to-end <strong>semantic segmentation</strong> of urban street scenes for autonomous driving perception.</p>
+      <ul>
+        <li><strong>Dataset:</strong> BDD100K</li>
+        <li><strong>Task:</strong> multi-class semantic segmentation</li>
+        <li><strong>Classes:</strong> road, traffic light, traffic sign, vehicle, person, bicycle, background</li>
+        <li><strong>Evaluation:</strong> mean Intersection over Union (mIoU)</li>
+        <li><strong>Results:</strong> mIoU ≈ 0.45, with strong performance on dominant classes (road ≈ 0.88, vehicle ≈ 0.78)</li>
+        <li><strong>Optimization:</strong> systematic hyperparameter optimization via experiment sweeps</li>
+        <li><strong>Pipeline:</strong> data preparation → training → evaluation → deployment and visualization</li>
+      </ul>
+      <ul class="chips"><li>PyTorch</li><li>fastai</li><li>Semantic segmentation</li><li>Hyperparameter optimization</li><li>Experiment tracking</li></ul>
+      <a class="card-link" href="https://github.com/amramer/Semantic-Segmentation-Model-for-Autonomous-Vehicles-An-End-to-End-ML-Workflow" target="_blank" rel="noopener">GitHub repository</a>
+    </article>
+
+    <article class="card" aria-labelledby="c-brain">
+      <figure class="media">
+        <video class="autoplay" muted loop playsinline preload="none" poster="assets/img/brain-tumor-segmentation-poster.webp" width="762" height="408" aria-label="Brain tumor segmentation on MRI">
+          <source src="assets/media/brain-tumor-segmentation.mp4" type="video/mp4">
+        </video>
+      </figure>
+      <p class="project-kind">Medical imaging</p>
+      <h3 id="c-brain">3D Brain Tumor Segmentation (MRI)</h3>
+      <p>Multi-label <strong>3D semantic segmentation</strong> of glioma sub-regions from volumetric MRI scans.</p>
+      <ul>
+        <li><strong>Dataset:</strong> Medical Segmentation Decathlon / BraTS (multi-modal MRI)</li>
+        <li><strong>Model:</strong> 3D SegResNet (MONAI)</li>
+        <li><strong>Input modalities:</strong> FLAIR, T1, T1Gd, T2</li>
+        <li><strong>Target structures:</strong> whole tumor (WT), tumor core (TC), enhancing tumor (ET)</li>
+        <li><strong>Training and evaluation:</strong> Dice loss and mean Dice</li>
+        <li><strong>Results:</strong> mean Dice = 0.78 on validation (WT 0.90, TC 0.82, ET 0.59)</li>
+        <li><strong>Pipeline:</strong> preprocessing → training → inference → deployment and visualization</li>
+      </ul>
+      <ul class="chips"><li>PyTorch</li><li>MONAI</li><li>3D SegResNet</li><li>Multi-modal MRI</li><li>3D medical image transforms</li><li>Sliding-window inference</li><li>Weights &amp; Biases</li></ul>
+      <a class="card-link" href="https://github.com/amramer/brain-tumor-segmentation-3D-DeepLearning" target="_blank" rel="noopener">GitHub repository</a>
+    </article>
+
+    <article class="card" aria-labelledby="c-vlm">
+      <figure class="media media-dark">
+        <video class="autoplay" muted loop playsinline preload="none" poster="assets/img/realtime-captioning-poster.webp" width="1280" height="674" aria-label="Realtime vision captioning app">
+          <source src="assets/media/realtime-captioning.mp4" type="video/mp4">
+        </video>
+      </figure>
+      <p class="project-kind">Vision-language models</p>
+      <h3 id="c-vlm">Realtime Vision Captioning</h3>
+      <p>Exploratory project focused on applying <strong>vision-language models in realtime webcam-based settings</strong>.</p>
+      <ul>
+        <li>Realtime image captioning and visual question answering using <strong>BLIP</strong> via <strong>Hugging Face Transformers</strong></li>
+        <li>Image classification using <strong>ResNet-50</strong> pretrained on <strong>ImageNet</strong></li>
+        <li>Realtime <strong>Gradio-based webcam application</strong> for live image captioning and classification with adjustable inference parameters</li>
+      </ul>
+      <p>The project is implemented as a set of Jupyter notebooks, progressing from offline image understanding to <strong>a realtime vision application</strong>.</p>
+      <ul class="chips"><li>Python</li><li>PyTorch</li><li>Torchvision</li><li>Hugging Face Transformers</li><li>Gradio</li><li>PIL</li><li>NumPy</li></ul>
+      <a class="card-link" href="https://github.com/amramer/realtime-vision-captioning" target="_blank" rel="noopener">GitHub repository</a>
+    </article>
+
+    <article class="card" aria-labelledby="c-agent">
+      <figure class="media media-dark">
+        <img src="assets/img/conversational-agent.webp" alt="AI conversational agent web interface with an avatar" width="1600" height="764" loading="lazy" decoding="async">
+      </figure>
+      <p class="project-kind">Conversational AI <span class="status">Ongoing</span></p>
+      <h3 id="c-agent">AI Conversational Agent with Voice, Avatar and Web Interface</h3>
+      <p>Conversational AI system enabling real-time voice and text interaction through a custom web-based interface.</p>
+      <ul>
+        <li>Speech-to-text and text-to-speech for natural dialogue</li>
+        <li>LLM-powered conversational reasoning</li>
+        <li>Human-like conversational avatar integrated into the UI</li>
+        <li>Modular frontend-backend design for extensibility</li>
+      </ul>
+      <ul class="chips"><li>Python</li><li>OpenAI GPT</li><li>Speech-to-text</li><li>Text-to-speech</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li><li>jQuery</li></ul>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="wrap" id="skills" aria-labelledby="h-skills">
+  <h2 id="h-skills">Technical profile</h2>
+  <dl class="skills">
+    <div><dt>Computer vision tasks</dt><dd>Object detection, segmentation, tracking, 3D object detection, camera and LiDAR sensor fusion, video motion analysis, digital avatar generation</dd></div>
+    <div><dt>Models and frameworks</dt><dd>PyTorch, TensorFlow, OpenCV, YOLO, SAM, CNNs, Vision Transformers (ViT), TrackNet, Supervision</dd></div>
+    <div><dt>Training and evaluation</dt><dd>Transfer learning, fine-tuning, loss design, metric selection, hyperparameter optimization, multi-GPU training (CUDA)</dd></div>
+    <div><dt>Data pipelines and quality</dt><dd>Bronze, silver and gold data layers, DVC dataset versioning and lineage, Airflow orchestration, PySpark, pandas / PyArrow, Parquet, Pandera schema and data-quality checks</dd></div>
+    <div><dt>Data and experimentation</dt><dd>Dataset preparation, data augmentation, efficient data loading, MLflow, Weights &amp; Biases, TensorBoard, ablation studies</dd></div>
+    <div><dt>Deployment and inference</dt><dd>Docker, Kubernetes, FastAPI, ONNX Runtime, GPU inference pipelines, batch and real-time inference, AWS (EC2 GPU), Streamlit (demos)</dd></div>
+    <div><dt>CI/CD and monitoring</dt><dd>GitHub Actions, automated testing and reproducibility checks, model promotion gates, Prometheus, Grafana</dd></div>
+    <div><dt>Compute and infrastructure</dt><dd>SLURM (HPC), GPU job scheduling, multi-node training, large-scale GPU experiments</dd></div>
+    <div><dt>Software engineering foundations</dt><dd>Python, C++, object-oriented design, version control (Git), debugging, logging, unit testing</dd></div>
+  </dl>
+</section>
+
+<!-- ============ BEYOND WORK ============ -->
+<section class="wrap" id="beyond" aria-labelledby="h-beyond">
+  <h2 id="h-beyond">Beyond work</h2>
+  <p class="section-lede">Outside of my professional work, I enjoy aerial photography and videography using drones. This section highlights selected visual projects created in my free time.</p>
+  <div class="vimeo-grid">
+    <div class="vimeo"><iframe src="https://player.vimeo.com/video/1152190588?dnt=1" title="Drone video 1" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+    <div class="vimeo"><iframe src="https://player.vimeo.com/video/1152190476?dnt=1" title="Drone video 2" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+    <div class="vimeo"><iframe src="https://player.vimeo.com/video/1152190673?dnt=1" title="Drone video 3" loading="lazy" allow="fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+  </div>
+  <p><a href="https://vimeo.com/amramer252805454" target="_blank" rel="noopener">View more drone videos on Vimeo</a></p>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="wrap contact" id="contact" aria-labelledby="h-contact">
+  <h2 id="h-contact">Contact</h2>
+  <p class="section-lede">If you're hiring or would like to collaborate, I'd be glad to hear from you.</p>
+  <ul class="contact-list">
+    <li><span>Email</span><a href="mailto:amribrahim.amer@gmail.com">amribrahim.amer@gmail.com</a></li>
+    <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/amr-amer-2023-cs/" target="_blank" rel="noopener">linkedin.com/in/amr-amer-2023-cs</a></li>
+    <li><span>GitHub</span><a href="https://github.com/amramer" target="_blank" rel="noopener">github.com/amramer</a></li>
+    <li><span>Phone</span><a href="tel:+491626667294">+49 162 6667294</a></li>
+  </ul>
+</section>
+
+</main>
+
+<footer class="foot wrap">
+  <p>© 2026 Amr Amer</p>
+  <p><a href="assets/Resume_Amr_Amer.pdf" download>Download CV (PDF)</a></p>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
